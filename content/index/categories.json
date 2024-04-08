@@ -1,0 +1,99 @@
+[
+    {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    },
+    {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    },
+    {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    },
+    {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    },
+    {
+      "id": "65b1364dfde236610cda3d7a",
+      "title": "TV",
+      "media": {
+        "id": "65b13649fde236610cda3d73",
+        "alt": "TV",
+        "url": "/categories/tv-home-category.png", 
+        "filesize": 29374,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    },
+    {
+      "id": "65b1366afde236610cda3d9b",
+      "title": "Watches",
+      "media": {
+        "id": "65b13662fde236610cda3d94",
+        "alt": "Watches",
+        "url": "/categories/watches-category.png", 
+        "filesize": 98736,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+  ]
+  

@@ -1,0 +1,95 @@
+@import '../../../styles/css/common';
+
+.orders {
+  margin-bottom: 25px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.form {
+  margin-bottom: 25px;
+}
+
+.success,
+.error {
+  margin-bottom: 15px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.noOrders {
+  font-weight: 600;
+}
+
+.ordersList {
+  padding: 0;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-wrap: 1;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: calc(50px / 2);
+  text-decoration: none;
+  text-transform: none;
+  h4{
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 400;
+  }
+  p{
+    font-weight: 400;
+    font-size: 16px;
+  }
+  &:hover{
+    color: var(--primary);
+  }
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  gap: calc(25px / 2);
+  flex-grow: 1;
+}
+
+.itemTitle {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.itemMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  & > * {
+    margin: 0;
+  }
+}
+
+.button {
+  flex-shrink: 0 !important;
+  background: transparent !important;
+  border:1px solid var(--primary) !important;
+  color: var(--primary) !important;
+  &:hover{
+    color: var(--primary) !important;
+  }
+}
+
+.listItem{
+  margin-bottom: 25px;
+  border-bottom: 1px solid var(--primary-dark);
+  padding-bottom: 10px;
+  
+}

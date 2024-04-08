@@ -1,0 +1,138 @@
+@import "../../../../styles/css/common";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+.contact_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 3px;
+  padding-right: 3px;
+  align-items: baseline;
+  h2{
+    font-size: 28px;
+    line-height: 29px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  button{
+    &:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+.payment_select_wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.payment_wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.payment_details_wrapper{
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: var(--background-modal-4);
+  border: 1px solid var(--primary-dark);
+  &:hover{
+    cursor: pointer;
+    background-color: var(--primary-dim2);
+    border-color: var(--primary);
+  }
+}
+
+.payment_details_wrapper_active{
+  background-color: var(--primary-dim2);
+  border-color: var(--primary);
+}
+
+.payment_details_container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+.payment_details_content{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.payment_details_content_img{
+  display: flex;
+  padding: 8px;
+  img{
+    vertical-align: middle;
+    min-width: 50px;
+    height: 28px;
+    object-fit: cover;
+  }
+}
+
+.payment_details_content_text{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.payment_details_content_text_header{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.payment_details_content_text_subline{
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--primary-dim);
+}
+
+.radioButton_input_wrapper_circle{
+  min-width: 16px;
+  height: 16px;
+  border: 1px solid var(--primary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioButton_input_wrapper_circle_inner_active{
+    background-color: var(--primary) !important;
+}
+
+.radioButton_input_wrapper_circle_inner{
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}

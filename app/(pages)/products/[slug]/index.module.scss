@@ -1,0 +1,16 @@
+@import '../../../../styles/css/common';
+
+
+.home{
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    min-height: 95vh;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+  
+    @include small-break {
+      margin: 0;
+    }
+
+}

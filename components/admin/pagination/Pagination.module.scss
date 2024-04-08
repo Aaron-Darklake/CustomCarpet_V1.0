@@ -1,0 +1,186 @@
+@import '../../../styles/scss/mixins';
+
+
+.table_page_controls{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.table_page_control_paginator{
+    margin-bottom: 0;
+    display: flex;
+    font-weight: 400;
+    font-size: 13px;
+}
+.table_page_control_paginator_arrow{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12.5px;
+    outline: 0;
+    line-height: 25px;
+    &:hover{
+        background: var(--background-dim2);
+    }
+    svg{
+        width: 12.5px;
+        height: 12.5px;
+    }
+}
+.table_page_control_paginator_arrow_right{
+    margin-right: 6.25px;
+   
+}
+
+.disabledArrow{
+    color: var(--primary-dim);
+    &:hover{
+        background: none;
+        color: var(--primary-dim);
+    }
+    cursor: auto;
+}
+
+.table_page_control_paginator_page{
+    margin-right: 6.25px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12.5px;
+    outline: 0;
+    line-height: 25px;
+    
+}
+
+.table_page_control_paginator_page_currentPage{
+    background: var(--background-dim2);
+    cursor: auto;
+}
+
+.table_page_control_page_info{
+    margin-right: 25px;
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.table_page_control_per_page_popup{
+    position: relative;
+    width: 100px;
+}
+
+.table_page_control_per_page_base_btn{
+    height: 100%;
+    padding: 0;
+    font-size: 13px;
+    line-height: 25px;
+    min-width: 110px;
+    display: inline-flex;
+    cursor: pointer;
+    background: transparent;
+}
+
+.table_page_control_per_page_button{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    span{
+        margin-right: 4px;
+    }
+    svg{
+        height: 12.5px;
+        width: 12.5px;
+    }
+}
+
+
+
+.table_page_control_per_page_popup_content_active{
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: all !important;
+}
+
+.table_page_control_per_page_popup_content{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    bottom: calc(100% + 10px);
+    position: absolute;
+    background: var(--primary-dim2);
+    z-index: 10;
+    border-radius: 4px;
+    max-width: calc(100vw - 25px);
+    min-width: 100px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+
+.table_page_control_per_page_popup_hide_scrollbar{
+    overflow: hidden;
+}
+
+.table_page_control_per_page_popup_scroll_container{
+    overflow-y: auto;
+    white-space: nowrap;
+    width: calc(100% + 17px);
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+
+.table_page_control_per_page_popup_scroll_content{
+    width: calc(100% - 17px);
+}
+
+.table_page_control_per_page_popup_content_button_list{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 13px;
+}
+
+.table_page_control_per_page_popup_content_button_list_button{
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--primary-dim);
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+.table_page_control_per_page_popup_content_button_list_button_active{
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.per_page_chevron{
+    padding-left: 6.25px;
+    margin-right: 4px;
+    svg{
+        height: 11.5px;
+        width: 11.5px;
+    }
+}
+
+.popup_caret {
+    position: absolute;
+    border: 10px solid transparent; // Size of the caret, adjust as needed
+    border-top-color: var(--primary-dim2); // Color of the caret
+    left: 75%;
+    transform: translateX(-50%);
+    top: calc(100% - 1px);
+}

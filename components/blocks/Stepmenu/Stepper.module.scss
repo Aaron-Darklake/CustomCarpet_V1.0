@@ -1,0 +1,121 @@
+@import '../../../styles/css/common';
+/* Stepper.module.scss */
+.stepper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
+    @include small-break {
+      padding-left: 25px !important;
+      padding-right: 25px !important;
+    }
+  }
+
+  .stepper_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .stepper_step_wrapper{
+    
+    padding-left: 8px;
+    padding-right: 8px;
+    flex: 1 1 0%;
+    position: relative;
+  }
+
+  
+
+  .stepper_span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stepper_icon_span{
+    display: flex;
+  }
+
+  .stepper_content_span{
+    text-align: center;
+  }
+  .stepper_content{
+    @include small-break{
+      font-size: 12px;
+    }
+    font-weight: 400;
+    color: var(--primary-dim);
+  }
+
+  @keyframes colorChange {
+    from { border-color: var(--primary-dim); }
+    to { border-color: var(--primary); }
+  }
+  
+  .step_devider_completed {
+    animation: colorChange 0.9s ease-out forwards;
+  }
+  .stepper_content_active{
+    color: var(--primary);
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-dim);
+    color: var(--background) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .step_devider_wrap{
+    position: absolute;
+    top: 12px;
+    left: calc(-50% + 25px);
+    right: calc(50% + 25px);
+}
+.step_devider_wrap_hidden{
+  display: none;
+}
+  
+.step_devider{
+  display: block;
+  border-top: 1px solid var(--primary-dim);
+}
+ 
+@keyframes circleColorChange {
+  from { background-color: var(--primary-dim); }
+  to { background-color: var(--primary); }
+}
+  .active {
+    animation: circleColorChange 0.5s ease-out 0.9s forwards; // 0.9s is the delay
+    cursor: pointer;
+    color: var(--primary);
+  }
+  
+  .label {
+    font-size: 14px;
+  }
+  
+  .connector {
+    height: 2px;
+    background-color: #ddd;
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  

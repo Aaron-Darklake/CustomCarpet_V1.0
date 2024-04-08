@@ -1,0 +1,200 @@
+/* styles/pages/impressum.module.scss */
+
+@import '../scss/_mixins';
+
+/* contact.module.scss */
+/* Add styles for the title container */
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Add styles for the back button container */
+ 
+  
+  /* Add styles for the back button */
+  .backButton {
+    display: inline-block;
+    color: var(--primary);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  /* Add styles for the title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+    flex: 1;
+    text-align: center;
+  }
+  
+
+.section {
+    // Add background color and padding to the section
+    background-color: #f7f7f7;
+    padding: 3rem 0;
+  }
+  
+  .container {
+    max-width: 800px; // Adjust the max-width to your preference
+    margin: 0 auto;
+  }
+  
+  .containerTitle {
+    // Center the section title
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contactSection {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .contactGrid {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .contactHeader {
+    margin-bottom: 0.5rem;
+    h2{
+        font-size: 16px;
+    }
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+    font-size: 16px;
+  }
+  
+  .formGroup p {
+    margin: 0.5rem 0;
+  }
+  
+  .formGroup h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .formGroup a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .formGroup a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+/* .orbitalBg styles */
+
+	// #8A0202; /* Main color */
+	//rgba(138, 2, 2, 0.8); /* Color with reduced opacity */
+	.bgContainer {
+		--opacity: 10%;
+	
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+		height: 500px;
+	
+		.afterGlowBg {
+			position: absolute;
+			z-index: -2;
+			top: -50%;
+			right: 0px;
+			height: 1000px;
+			width: 500px;
+			transform: translateX(50%);
+			filter: blur(200px);
+			opacity: var(--opacity);
+			 background: linear-gradient(180deg, #8A0202 0%,  #600101 100% );	
+			background: linear-gradient(180deg, var(--neon-1-1) 0%,  var(--neon-1-2) 100% );	
+		}
+	
+		.orbitalBg {
+			 --left: linear-gradient(180deg, #C80000 0%,  #8A0202 100% );
+			 --center: linear-gradient(180deg, #8A0202 0%,  #600101 100% );
+			 --right: linear-gradient(180deg, #600101 0%,  #8A0202 100% );
+			//--left: linear-gradient(180deg, var(--neon-2-1) 0%,  var(--neon-2-2) 100% );
+			//--center: linear-gradient(180deg, var(--neon-1-1) 0%,  var(--neon-1-2) 100% );
+			//--right: linear-gradient(180deg, var(--neon-2-2) 0%,  var(--neon-1-1) 100% );
+			
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+			left: -50%;
+		
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			gap: 2rem;
+			
+			height: 500px;
+		
+			filter: blur(200px);
+		
+			animation: rotationFore 240s linear infinite;
+			transform-origin: center center;
+			
+		
+			.bgSection {
+				position: relative;
+				width: calc(100% / 3 - 2rem);
+				aspect-ratio: 1;
+				height: 100%;
+			}
+		
+			.bgInner {
+				height: 100%;
+				width: 100%;
+				display: block;
+				border-radius: 99rem;
+			}
+	
+			.heroOrbital {
+				height: 200%;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		
+			.heroLeft {
+				position: absolute;
+				left: -50%;
+				background: var(--left);
+				opacity: calc(var(--opacity) + 15%);
+			}
+			.heroCenter {
+				background: var(--center);
+				opacity: var(--opacity);
+			}
+			.heroRight {
+				position: absolute;
+				right: -50%;
+				background: var(--right);
+				opacity: calc(var(--opacity) + 15%);
+			}
+		
+		
+			@keyframes rotationFore {
+				0% {
+					transform: rotate(0deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
+			} 
+		}
+	}  
+  

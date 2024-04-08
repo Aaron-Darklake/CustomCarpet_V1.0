@@ -1,0 +1,21 @@
+[
+    {
+    "imageSrc1": "/rectangle-31@2x.png",
+    "name1":"Björn Helget",
+    "position1":"Gründer, künstlerischer Leiter",
+    "description1":"Björn Helget wurde 1985 in Dresden geboren und erhielt seine Tanzausbildung an der Palucca Hochschule für Tanz Dresden sowie an der Staatlichen Ballettschule Berlin und Schule für Artistik."
+},
+{
+    "imageSrc2": "/rectangle-311@2x.png",
+    "name2":"Nils Heinrich",
+    "position2":"Gründer, musikalischer Leiter",
+    "description2":"Nils Heinrich wurde 1985 in Dresden geboren. 1994 wurde er an der Spezialschule für Musik Carl Maria v. Weber aufgenommen, wo er sich zusätzlich auf dem Instrument der Posaune spezialisierte."
+},
+{
+    "imageSrc3": "/rectangle-312@2x.png",
+    "name3":"Axel Kutschbach",
+    "position3":"Schauspieler",
+    "description3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit"
+}
+
+]

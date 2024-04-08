@@ -1,0 +1,557 @@
+@use '../../../styles/css/queries.scss' as *;
+@import '../../../styles/scss/mixins';
+
+
+
+
+// Section
+.section{
+	display: flex;
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 100px;
+  padding-left: 144px;
+  padding-right: 144px;
+  @include mid-break{
+  margin-top: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+@include small-break{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+	/* Style the radio buttons */
+.subjectButtons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+  }
+  
+  .subjectLabel {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	label {
+		font-size: 16px;
+		  font-family: var(--font-sans);
+		  color: var(--primary);
+		  font-weight: 100;
+		  margin-bottom: 0.5rem;
+	  }
+	font-size: 16px;
+		  font-family: var(--font-sans);
+		  color: var(--primary);
+		  font-weight: 100;
+		  margin-bottom: 0.5rem;
+  }
+  
+  input[type="radio"] {
+	display: none; /* Hide the radio input */
+  }
+  
+  /* Style the circle element */
+  .subjectLabel::before {
+	content: "";
+	display: inline-block;
+	width: 15px; /* Adjust the circle size as needed */
+	height: 15px; /* Adjust the circle size as needed */
+	border-radius: 50%;
+	border: 1px solid var(--primary);
+	margin-right: 8px; /* Adjust the spacing between the circle and label */
+	@include small-break{
+		margin-right: 4px;
+	}
+  }
+  
+  /* Style the circle when the radio input is checked */
+  .selectedSubjectLabel::before{
+	background-color: var(--primary-dim);
+  }
+	  
+	  
+		// Define the height of the contact section
+$contact-section-height: 500px;
+.container{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	.containerTitle{
+		p{
+			color: var(--primary);
+		}
+	}
+}
+// Styling for the contact section
+.contactSection {
+  display: flex;
+  justify-content: space-between;
+  height: min-content;
+  backdrop-filter: blur(28px) brightness(90%);
+  border: 0.5px solid #171717;
+  border-radius: 2rem;
+  .contactGrid {
+	display: flex;
+	position: relative;
+	width: 100%;
+	flex-basis: 50%;
+	gap: 2rem;
+	
+	
+  
+	@include small-break {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+  
+  .contactForm {
+	.success_message {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: green;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		
+	  }
+	  
+	  .success_message svg {
+		width: 80px;
+		height: 80px;
+		margin-bottom: 3rem;
+		margin-top: 3rem;
+	  }
+	  
+	  .success_message p {
+		font-size: 18px;
+	  }
+	  
+	.contactHeader{
+		svg {
+			height: calc(2rem - 0.2rem);
+			padding: 0.2rem;
+			
+			path {
+				fill: var(--secondary);
+			}
+		}
+		p{
+			text-align: center;	
+			flex-grow: 1;
+		}
+		display: flex;
+		text-align: center;
+		justify-content: flex-start;
+	}
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+	
+
+    p {
+      font-size: 25px;
+      font-weight: bold;
+	  font-family: var(--font-sans);
+	  color: var(--primary);
+	  text-align: center;
+	  margin-bottom: 2rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+	  height: fit-content;
+
+	  .formGroup {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0.5rem;
+  
+		label {
+		  font-size: 14px;
+		  color: var(--primary);
+		  margin-bottom: 0.3rem;
+		  font-weight: 600;
+		  font-family: var(--font-sans);
+		  @include small-break{
+			font-size: 12px;
+			margin-right: 2px;
+		  }
+		}
+	  
+
+		input,
+		textarea {
+		  padding: 5px;
+		  border-bottom: 1px solid var(--primary-dim);
+		  font-size: 16px;
+		  font-family: var(--font-sans);
+		  color: var(--primary);
+		  font-weight: 100;
+		  margin-bottom: 0.5rem;
+  
+		  &:hover {
+			border-color: var(--primary);
+		  }
+		}
+	}
+	.formGroup2 {
+		display: flex;
+		margin-bottom: 0.5rem;
+		.nameWrapper{
+			
+			flex-direction: column;
+		label {
+		  font-size: 14px;
+		  color: var(--primary);
+		  margin-bottom: 0.3rem;
+		  font-weight: 600;
+		  font-family: var(--font-sans);
+		}
+	  
+
+		input,
+		textarea {
+		  padding: 5px;
+		  width: 90%;
+		  border-bottom: 1px solid var(--primary-dim);
+		  color: var(--primary);
+		  font-size: 16px;
+		  font-family: var(--font-sans);
+		  margin-bottom: 0.5rem;
+          font-weight: 100;
+		  &:hover {
+			border-color: var(--primary);
+		  }
+		}}
+	}
+
+	button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: .875rem;
+		padding: 0.75rem 2rem;
+		width: 100%;
+		margin-top: 0.5rem;
+		background-color: var(--primary);
+		color: var(--background);
+		&:hover{
+			background-color: var(--primary-dim);
+		}
+		margin-bottom: 1rem;
+	}
+    }
+  }
+}
+  .contactArea {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    backdrop-filter: blur(2px) brightness(20%);
+    background-color: var(--background-modal-3);
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	border-radius: 2rem;
+	justify-content: flex-start;
+
+
+    .contactCompany {
+		padding: 0.5rem;
+		flex-direction: column;
+		.contactCompanyHeader{
+		display: flex;
+		flex-direction: column;
+		@media screen and (max-width: 912px) {
+			flex-direction: column;
+		}
+		align-items: baseline;
+		margin-top: 1.5rem;
+		margin-bottom: 2rem;
+      h3 {
+        font-size: 2rem;
+		margin-right: 0.5rem;
+		line-height: 140%;
+  		font-weight: 600;
+		font-family: var(--font-sans);
+      }
+
+      p {
+
+		margin-bottom: 0.5rem;
+		align-items: baseline;
+		color: var(--primary-dim);
+		font-size: 18px;
+  		text-align: left;
+      }
+	}
+	.companyAdress{
+		display: inline-flex;
+		align-items: flex-start;
+		margin-bottom: 1.5rem;
+		
+		svg {
+			height: calc(2rem - 0.2rem);
+			@media screen and (max-width: 768px) {
+				height: 1.3rem;
+			}
+			margin-right: 0.5rem;
+			path {
+				fill: var(--primary-dim);
+			}
+		}
+		.companyAdressDetails{
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+		p{
+			font-family: var(--font-sans);
+			font-weight: 500;
+			color: var(--primary);
+			@media screen and (max-width: 768px) {
+				font-size: 12px;
+			}
+		}
+	}
+	}
+	.companyMail{
+		display: flex;
+		align-items: center;
+		margin-bottom: 1.5rem;
+		
+		svg {
+			height: calc(2rem - 0.2rem);
+			@media screen and (max-width: 768px) {
+				height: 1.3rem;
+			}
+			margin-right: 0.5rem;
+			path {
+				fill: var(--primary-dim);
+			}
+		}
+		a{
+			font-family: var(--font-sans);
+			@media screen and (max-width: 768px) {
+				font-size: 12px;
+			}
+			font-weight: 400;
+			color: var(--primary);
+		}
+	}
+	  .socialIcons{
+		display: flex;
+		flex-direction: column;
+		margin-top: 1rem;
+		font-size: 1.5rem;
+		p{
+			font-family: var(--font-sans);
+			margin-bottom: 1rem;
+			color: var(--primary);
+		}
+		.socialIconsContainer{
+			display: inline-flex;
+			.icon {
+				display: flex;
+		
+				
+			  .facebook {
+				
+				  display: inline-flex;
+				  align-items: center;
+				  justify-content: center;
+				  margin-right: 10px;
+				  color: var(--primary-dim);
+				  &:hover {
+					color: #1877F2;
+					transition: ease-in-out 0.3s;
+				  }
+			  
+				 
+			  
+				  svg {
+					height: 1.5rem;
+					padding: 0.2rem;		
+				}
+			}
+			  .instagram {
+				
+				  display: inline-flex;
+				  align-items: center;
+				  justify-content: center;
+				  margin-right: 10px;
+				  color: var(--primary-dim);
+				  &:hover {
+					color: #833ab4;
+					transition: ease-in-out 0.3s;
+				  }
+			  
+				 
+			  
+				  svg {
+					height: 1.5rem;
+					padding: 0.2rem;		
+				}
+			}
+			  .youtube {
+				
+				  display: inline-flex;
+				  align-items: center;
+				  justify-content: center;
+				  margin-right: 10px;
+				  color: var(--primary-dim);
+				  &:hover {
+					color: #FF0000;
+					transition: ease-in-out 0.3s;
+				  }
+			  
+				 
+			  
+				  svg {
+					height: 1.5rem;
+					padding: 0.2rem;		
+				}
+			}
+			  .mail {
+				
+				  display: inline-flex;
+				  align-items: center;
+				  justify-content: center;
+				  margin-right: 10px;
+				  color: var(--primary-dim);
+				  &:hover {
+					color: var(--primary);
+					transition: ease-in-out 0.3s;
+				  }
+			  
+				 
+			  
+				  svg {
+					height: 1.5rem;
+					padding: 0.2rem;		
+				}
+			}
+			  }
+	}
+	  }
+    }
+  }
+}	
+	
+.imageArea {
+    flex: 1;
+    display: flex;
+	z-index: -1;
+	height: 100%;
+	
+    align-items: flex-start;
+    //padding: 20px;
+    background-color: var(--background-dim);
+	border-top-right-radius: 0rem;
+	border-bottom-right-radius: 0rem;
+	border-radius: 0rem;
+	justify-content: flex-start;
+	img{
+		
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		filter: grayscale(80%);
+		border-radius: 0rem;
+	}
+}
+	
+  
+	.technicalSvg {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  right: 0;
+  
+	  img {
+		transform: rotate(90deg);
+	  }
+	}
+
+}
+  
+ 
+  
+  @include media($max: $mobile) {
+	.section {
+		.container{
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.bgContainer {
+			.orbitalBg {
+				width: unset;
+				height: 100%;
+			}
+		}
+
+		.contactSection {
+			flex-direction: column;
+			height: fit-content;
+		
+	  .area {
+		.company,
+		.position {
+		  padding: 2rem 1rem;
+		}
+  
+		.position {
+		  padding-bottom: 1rem;
+		  --padding-top: 1rem;
+		}
+  
+		.companyContent {
+		  max-width: 100%;
+		}
+  
+		.positionContent {
+		  gap: 1rem;
+		  max-width: 100%;
+		}
+  
+		p {
+		  font-size: 0.8rem;
+		}
+  
+		ul.list {
+		  li {
+			font-size: 0.8rem;
+		  }
+		}
+  
+		ul:not(.list) {
+		  li {
+			font-size: 0.6rem;
+		  }
+		}
+	  }
+	}
+	.contactArea {
+		.contactCompany {
+			padding: 0.5rem;
+			flex-direction: column;
+			.contactCompanyHeader{
+			display: flex;
+			flex-direction: column;
+			margin-top: 1.5rem;
+			}
+		}
+	}
+}
+  }
+  

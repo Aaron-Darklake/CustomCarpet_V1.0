@@ -1,0 +1,25 @@
+[
+	{
+		"imageSrc": "/col-1@2x.png",
+		"title":"TheHope",
+		"description1":"beschäftigt sich mit dem Thema der Hoffnung als ein Element der ",
+		"description2":"Annäherung an den Zustand der Liebe und Geborgenheit.",
+		"description3":""
+	},
+	{
+		"imageSrc": "/col-11@2x.png",
+		"title":"TheArtCollector",
+		"description1": "stellt einen fiktiven Charakter ins Zentrum der Handlung, ",
+		"description2": "welcher durch die Verinnerlichung von Kunstwerken und künstlerischen Fähigkeiten ",
+		"description3": "selbst zu einer neuen Kunstschöpfung heranwächst."
+		
+	},
+	{
+		"imageSrc": "/col-12@2x.png",
+		"title":"TheMoment",
+		"description1":"spiegelt die Welten und Wahrnehmungen wider, ",
+		"description2":"die mit dem Verlust und der Trennung eines geliebten Menschen einhergehen. ",
+		"description3":"Das emotionale Spektrum des Erkennens von Suche, Ohnmacht und Kontrollverlust sind wesentliche Merkmale der Inszenierung."
+		
+	}
+]

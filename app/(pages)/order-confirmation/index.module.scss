@@ -1,0 +1,24 @@
+@import '../../../styles/css/common';
+
+.confirmationPage {
+  padding-top: 100px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 75px !important;
+  padding-right: 75px !important;
+  margin-left: 272px;
+  margin-right: 272px;
+  @include small-break {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  p {
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,82 @@
+@import '../../../styles/css/type.scss';
+
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 10px 24px;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  svg {
+    margin-right: calc(20px / 2);
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.label {
+  @extend %label;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.appearance--primary {
+  background-color: var(--primary);
+  color: var(--background);
+  font-weight: 400;
+  &:hover{
+ .label{
+  color: var(--background);
+    font-weight: 500;
+  }
+ }
+}
+
+.appearance--secondary {
+  background-color: transparent;
+  color: var(--primary);
+  font-weight: 400;
+  box-shadow: inset 0 0 0 0.5px var(--primary);
+}
+
+.primary--invert {
+  background-color: var(--theme-elevation-0);
+  color: var(--theme-elevation-1000);
+}
+
+.secondary--invert {
+  background-color: var(--theme-elevation-1000);
+  box-shadow: inset 0 0 0 1px var(--theme-elevation-0);
+}
+
+.appearance--default {
+  padding: 0;
+  color: var(--theme-text);
+}
+
+.appearance--none {
+  padding: 0;
+  color: var(--theme-text);
+
+  &:local() {
+    .label {
+      text-transform: none;
+      line-height: inherit;
+      font-size: inherit;
+    }
+  }
+}

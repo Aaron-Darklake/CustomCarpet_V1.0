@@ -1,0 +1,13 @@
+@import '../../../../styles/css/common';
+
+.archiveBlock {
+  position: relative;
+}
+
+.introContent {
+  margin-bottom: calc(20px * 2);
+
+  @include mid-break {
+    margin-bottom: calc(20px * 2);
+  }
+}

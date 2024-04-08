@@ -1,0 +1,66 @@
+@import '../../../styles/scss/mixins';
+
+
+
+.radioButton_wrapper{
+    display: flex;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-dark);
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    &:hover{
+        background: var(--background-modal-4);
+        border-color: var(--primary);
+    }
+}
+
+.radioButton_wrapper_active{
+    border-color: var(--primary);
+    
+}
+
+.radioWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    padding-left: 15px;
+    svg{
+        font-size: 55px;
+        margin: -20px;
+        
+    }
+}
+
+.radioButton_input_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.radioButton_input_wrapper_circle{
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--primary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioButton_input_wrapper_circle_inner_active{
+    background-color: var(--primary) !important;
+}
+
+.radioButton_input_wrapper_circle_inner{
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: var(--background);
+}

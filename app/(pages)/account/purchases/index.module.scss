@@ -1,0 +1,56 @@
+.purchases {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-top: 1px solid var(--primary-dim2);
+    max-height: 60vh;
+    overflow: auto;
+    margin-bottom: 100px;
+  }
+  .mainTitle{
+    h5{font-size: 32px;}
+  }
+  .purchase {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--primary-dim2);
+  }
+  
+  .noPurchases {
+    font-weight: 600;
+  }
+  
+  .item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 30px;
+    h6{
+      font-weight: 700;
+      font-size: 20px;
+    }
+    &:hover{
+      color: var(--primary);
+    }
+  }
+  
+  .itemDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .purchasedDate {
+    font-size: 14px;
+  }
+  
+  .mediaWrapper {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+  }
+  
+  .image {
+    padding: 8px;
+    object-fit: contain;
+  }

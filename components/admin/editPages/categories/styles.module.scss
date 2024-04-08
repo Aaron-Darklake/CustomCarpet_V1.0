@@ -1,0 +1,536 @@
+@import '../../../../styles/scss/mixins';
+
+.collection_edit{
+    width: 100%;
+}
+
+.collection_edit_form{
+    height: 100%;
+}
+
+.collection_edit_form_header{
+    width: 100%;
+    margin-top: 12.5px;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+    padding-bottom: 37.5px !important;
+    border-bottom: 1px solid var(--primary-dim2);
+    h1{
+        font-size: 3.5rem;
+        line-height: 1.15;
+    }
+}
+
+.collection_edit_form_header_h1{
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+////
+.collection_edit_form_controls{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-bottom: 1px solid var(--primary-dim2);
+
+}
+
+.collection_edit_form_controls::before{
+    background: var(--background);
+    opacity: 0.3;
+}
+
+.collection_edit_form_controls::after{
+    backdrop-filter: blur(8px);
+}
+
+.collection_edit_form_controls::before,
+.collection_edit_form_controls::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.collection_edit_form_controls_wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 1px;
+    z-index: 1;
+    height: 75px;
+}
+
+.collection_edit_form_controls_content{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    overflow: hidden;
+}
+
+.collection_edit_form_controls_meta{
+    flex-grow: 1;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 25px;
+    margin: 0;
+    width: 100%;
+}
+
+.collection_edit_form_controls_meta_list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.collection_edit_form_controls_content_value{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/////
+.collection_edit_form_controls_controls_wrapper{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 25px;
+    position: relative;
+}
+
+.collection_edit_form_controls_controls{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 25px;
+}
+
+.collection_edit_form_submit_btn{
+    background: var(--primary);
+    color: var(--background);
+    border-radius: 4px;
+    padding: 6.25px 12.5px;
+    line-height: 25px;
+    font-size: 14px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+////
+.document_fields_with_sidebar{
+    width: 100%;
+    display: flex;
+    
+}
+/////
+.document_fields_main{
+    width: 66.6%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex-grow: 1;
+}
+
+.document_fields_main_gutter{
+    padding-left: 75px;
+    padding-bottom: 75px;
+    padding-top: 37.5px;
+    padding-right: 75px;
+}
+/////
+.document_fields_file_field{
+    position: relative;
+    margin-bottom: 25px;
+    background: var(--primary-dim2);
+}
+
+.document_fields_file_field_upload{
+    display: flex;
+}
+
+.document_fields_file_field_dropzone{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+    border: 1px dashed var(--primary-dark);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.document_fields_file_field_dropzone_file_btn{
+    background: none;
+    backdrop-filter: blur(5px);
+    color: var(--primary);
+    padding: 6.25px 12-5px;
+    line-height: 25px;
+    border-radius: 4px;
+    border: 1px solid var(--primary);
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+}
+
+.document_fields_file_field_dropzone_file_btn_content{
+    vertical-align: top;
+    line-height: 25px;
+}
+
+.document_fields_file_field_dropzone_hidden_input{
+    position: absolute;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.document_fields_file_field_dropzone_label{
+    font-size: 13px;
+    line-height: 25px;
+    margin: 0;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+.dropZoneHovered{
+    background: #354d40;
+    border-color:#b2ffd6;
+    button{
+        pointer-events: none;
+    }
+    p{
+        pointer-events: none; 
+    }
+}
+//
+.document_fields_file_field_thumbnail{
+    position: relative;
+    width: 150px;
+    height: auto;
+}
+
+.document_fields_file_field_thumbnail_medium{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    min-height: 100%;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.document_fields_file_adjustment{
+    padding: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+}
+
+.document_fields_file_fileName{
+    width: 90%;
+    background: var(--background);
+    border: 1px solid var(--primary-dark);
+    line-height: 25px;
+    font-size: 14px;
+    height: 50px;
+    padding: 12.5px 18.75px;
+}
+
+.document_fields_file_mutation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12.5px;
+}
+
+.document_fields_file_mutation_btn{
+    cursor: pointer;
+    background: var(--primary-dark);
+    border-radius: 3px;
+    padding: 6.25px 12.5px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    
+} 
+
+.document_fields_file_field_remove{
+    align-self: flex-start;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.document_fields_file_field_remove_content{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.document_fields_file_field_remove_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary);
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background: var(--primary);
+        color: var(--background);
+    }
+    svg{
+        font-weight: 200;
+        font-size: 13px;
+    }
+}
+
+
+
+.progressBar{
+    height: 1px;
+}
+
+
+/////
+///
+.drawer_overlay{
+    z-index: 101;
+    position: absolute;
+    min-height: 100%;
+    background: transparent;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    dialog{
+        width: 100%;
+        border: 0;
+        padding: 0;
+    }
+}
+
+.drawer_blur_background{
+    opacity: 1;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 200ms linear;
+    width: 100%;
+    &:before{
+        background: var(--background);
+        opacity: 0.75;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.drawer_close{
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+    flex-grow: 1;
+    opacity: 0.25;
+    background: var(--background);
+    transition: opacity 200ms linear;
+    transition-delay: 100ms;
+}
+
+//
+.doc_tabs{
+    display: flex;
+}
+
+.doc_tabs_tabs{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+}
+
+.doc_tabs_tab_active{
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.doc_tabs_tab_active::before{
+    opacity: 1;
+    background-color: var(--primary-dim2);
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.doc_tabs_tab_link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    cursor: default;
+    &:hover{
+        color: var(--primary);
+    }
+}
+
+.doc_tabs_container_link_text{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    height: 100%;
+    padding: 12.5px 25px;
+}
+
+.collection_edit_form_controls_content_label{
+    font-size: 13px;
+    line-height: 25px;
+    color: var(--primary-dim);
+    font-weight: 400;
+}
+
+.collection_edit_form_controls_content_value{
+    font-size: 13px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.collection_edit_form_controls_controls_popup{
+    position: relative;
+}
+
+.collection_edit_form_controls_controls_popup_trigger_wrap{
+    display: flex;
+}
+
+.collection_edit_form_controls_controls_popup_trigger_wrap_button{
+    height: 100%;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+}
+
+.collection_edit_form_controls_controls_popup_trigger_wrap_button_dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-dark);
+    width: 37.5px;
+    height: 37.5px;
+    border-radius: 4px;
+    &:hover{
+        border-color: var(--primary-dim);
+        background: var(--primary-dim2);
+    }
+}
+
+//popup
+.collection_edit_form_controls_controls_popup_content{
+    top: calc(100% + 10px);
+    right: 0;
+    position: absolute;
+    background: var(--primary-dim2);
+    z-index: 10;
+    max-width: calc(100vw - 37.5px);
+    border-radius: 4px;
+    padding: 0 12.5px;
+    min-width: 200px;
+}
+
+.collection_edit_form_controls_controls_popup_content_hide_scrollbar{
+    overflow: hidden;
+    display: flex;
+}
+
+.collection_edit_form_controls_controls_popup_content_scroll_container{
+    overflow-y: auto;
+    white-space: nowrap;
+    width: calc(100% + 17%);
+    padding: 12.5px 0;
+}
+
+.collection_edit_form_controls_controls_popup_content_scroll_content{
+    width: calc(100% - 17px);
+}
+
+.collection_edit_form_controls_controls_popup_content_scroll_content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.collection_edit_form_controls_controls_popup_list_btn{
+    font-size: 13px;
+    padding: 2px 12.5px;
+    cursor: pointer;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 3px;
+    text-align: inherit;
+    &:hover{
+        color: var(--primary);
+        background: var(--primary-dark);
+    }
+
+}
+
+.popup_caret {
+    position: absolute;
+    border: 10px solid transparent; // Size of the caret, adjust as needed
+    border-bottom-color: var(--primary-dim2); // Color of the caret
+    left: 85%;
+    bottom: calc(100% - 1px);
+}

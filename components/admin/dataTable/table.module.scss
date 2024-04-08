@@ -1,0 +1,210 @@
+@import '../../../styles/scss/mixins';
+
+
+.table{
+    margin-bottom: 25px;
+    overflow: auto;
+    max-width: 100%;
+    
+   table{
+    width: 100%;
+    overflow: auto;
+    .heading_select{
+        min-width: initial;
+        width: auto;
+        padding: 18.75px;
+    }
+    tr{
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+    }
+   }
+    
+    
+}
+
+.selectionButton_select{
+    font-size: 14px;
+    padding: 3.1px 6.25px;
+    line-height: 25px;
+    border-radius: 4px;
+    background: var(--primary-dim2);
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+    &:hover{
+        background: var(--primary-dim);
+    }
+}
+
+.table_checkbox{
+    display: block;
+}
+
+.table_checkbox_input{
+    box-shadow: 0 2px 3px 0 rgba(0,2,4,0.05);
+    border: 1px solid var(--primary-dim2);
+    background: var(--background-dim2);
+    font-size: 14px;
+    display: flex;
+    padding: 0;
+    line-height: 25px;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    &:hover{
+        border: 1px solid var(--primary-dim);
+    }
+    button{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+.table_checkbox_input_active{
+    border: 1px solid var(--primary-dim);
+}
+
+.table_checkbox_input_icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+        width: 25px;
+    svg{
+        opacity: 0;
+        vertical-align: middle;
+        &:hover{
+            opacity: 1;
+            color: var(--primary-dim);
+            cursor: pointer;
+        }
+    }
+}
+
+.table_checkbox_input_icon_active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    svg{
+        opacity: 1;
+        vertical-align: middle;
+    }
+}
+
+.table_sort_column_th{
+    min-width: 150px;
+    padding: 18.75px;
+    font-weight: normal;
+    text-align: left;
+    flex: 1;
+}
+
+.table_sort_column{
+    display: flex;
+    gap: calc(calc((25/13)*1rem)/4);
+    align-items: center;
+    height: 25px;
+
+}
+
+.table_sort_column_label{
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table_sort_column_buttons{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.table_sort_column_icon{
+    margin: 0;
+    opacity: 0.4;
+    padding: 6.25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    &:hover{
+        opacity: 1;
+    }
+    svg{
+        height: 13px;
+        width: 13px;
+        vertical-align: middle;
+       
+    }
+}
+.table{
+tbody{
+    tr:nth-child(odd){
+        background: var(--background-dim2);
+    }
+}
+}
+
+.cell_values{
+    min-width: 150px;
+    padding: 18.75px;
+    font-weight: normal;
+    text-align: left;
+    flex: 1;
+}
+
+.cell_select{
+    min-width: initial;
+    width: auto;
+    padding: 18.75px;
+}
+
+.cell_link{
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 25px;
+    &:hover{
+        color: var(--primary);
+    }
+}
+
+.cell_code{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: monospace;
+    border: 0;
+    display: inline-flex;
+    vertical-align: middle;
+    background: var(--primary-dim2) ;
+    border-radius: 3px;
+    padding: 0 6px;
+}
+
+.cell_span{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.activeSort {
+    opacity: 1 !important; /* Example color for active sort icon */
+  }

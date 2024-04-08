@@ -1,0 +1,24 @@
+@import '../../../styles/css/queries.scss';
+.container {
+    width: 100%;
+    min-height: 100vh;
+      @include small-break{
+        padding-top: 80px !important;
+      }
+  }
+  
+  
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 75%;
+      @include small-break{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+      }
+    
+  
+    @include large-break {
+      grid-template-columns: 100%;
+      gap: 10px;
+    }
+  }

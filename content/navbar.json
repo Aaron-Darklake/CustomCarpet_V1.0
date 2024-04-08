@@ -1,0 +1,18 @@
+[
+	{
+		"url": "about",
+		"title": "About Us"
+	},
+	{
+		"url": "projects",
+		"title": "Projects"
+	},
+	{
+		"url": "team",
+		"title": "Team"
+	},
+	{
+		"url": "contact",
+		"title": "Contact Us"
+	}
+]

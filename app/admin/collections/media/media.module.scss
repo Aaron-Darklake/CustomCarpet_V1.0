@@ -1,0 +1,148 @@
+@import '../../../../styles/scss/mixins';
+
+.collection_list{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.collection_list_wrap{
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+    padding-bottom: 75px;
+}
+
+.collection_list_header{
+    margin-bottom: calc((25/13)*1rem);
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1.44rem;
+    justify-content: space-between;
+    h1{
+        margin: 0;
+        font-size: 3.84rem;
+        line-height: 1.15;
+        letter-spacing: -1px;
+    }
+}
+
+.collection_list_header_btn{
+    position: relative;
+    top: -14px;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.92rem;
+    display: inline-flex;
+    background: var(--primary-dim2);
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 0.48rem;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 400;
+    flex-shrink: 0;
+    &:hover{
+        color: var(--primary);
+        background: var(--primary-dim);
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+
+
+
+
+
+/////////
+
+.list_selection{
+    margin-left: auto;
+    color: var(--primary-dim);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    span, button{
+        font-weight: 400;
+        font-size: 13px;
+    }
+    button{
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+
+//remianing table styles for the different cells
+.cell_link{
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 25px;
+    &:hover{
+        color: var(--primary);
+    }
+}
+.cell_link_file{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: -6.25px 0;
+    span{
+        align-self: center;
+    }
+}
+.cell_link_file_thumbnail{
+    display: inline-flex;
+    max-width: 75px;
+    max-height: 65px;
+    flex-shrink: 0;
+    overflow: hidden;
+    gap: 20px;
+    
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        align-self: stretch;
+        margin-right: 10px;
+    }
+}
+
+.cell_code{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: monospace;
+    border: 0;
+    display: inline-flex;
+    vertical-align: middle;
+    background: var(--primary-dim2) ;
+    border-radius: 3px;
+    padding: 0 6px;
+}
+
+.cell_span{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 400;
+}
+//
+
+.no_results{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.no_result_btn{
+    background: var(--primary);
+    color: var(--background);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12.5px 25px;
+    border-radius: 5px;
+}

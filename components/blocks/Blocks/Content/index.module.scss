@@ -1,0 +1,42 @@
+@import '../../../../styles/css/common';
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px calc(20px * 2);
+
+  @include mid-break {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px 20px;
+  }
+}
+
+.column--oneThird {
+  grid-column-end: span 4;
+}
+
+.column--half {
+  grid-column-end: span 6;
+}
+
+.column--twoThirds {
+  grid-column-end: span 8;
+}
+
+.column--full {
+  grid-column-end: span 12;
+}
+
+.column {
+  @include mid-break {
+    grid-column-end: span 6;
+  }
+
+  @include small-break {
+    grid-column-end: span 6;
+  }
+}
+
+.link {
+  margin-top: 20px;
+}

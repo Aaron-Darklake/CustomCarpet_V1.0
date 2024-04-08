@@ -1,0 +1,9 @@
+@import '../../../styles/css/common.scss';
+
+.renderParams {
+  margin-bottom: calc(20px * 2);
+
+  @include mid-break {
+    margin-bottom: 20px;
+  }
+}

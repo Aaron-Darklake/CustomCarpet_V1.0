@@ -1,0 +1,168 @@
+@import '../../../styles/css/common';
+
+.card {
+  border-radius: 4px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-dim);
+  &:hover{
+    color: var(--primary);
+  }
+}
+
+.sliderWrapper{
+  position: relative;
+  min-height: 262px;
+  background-color: var(--background-dim2);
+  border-radius: 18px;
+}
+
+.track {
+  width: 100%;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.dots {
+  display: flex;
+  height: 20px;
+  margin-top: -15px;
+  z-index: 10;
+  justify-content: center;
+}
+
+.dot {
+  all: unset;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+  background-color: var(--primary-dim);
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  &:hover {
+    background-color: var(--primary-dim);
+  }
+
+  @include mid-break {
+    &:hover {
+      background-color: var(--primary-dim); // disable hover on mobile
+    }
+  }
+}
+
+.dotIsActive {
+  background-color: var(--primary);
+}
+
+.prevButton{
+  position: absolute;
+  
+}
+
+.content {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: var(--background);
+  width: 100%;
+  
+
+  
+
+  @include small-break {
+    padding: calc(20px / 2);
+    gap: calc(20px / 4);
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 43px;
+}
+
+.centerAlign {
+  align-items: center;
+}
+
+.body {
+  flex-grow: 1;
+}
+
+.priceActions {
+  gap: 20px;
+}
+
+.price {
+  font-weight: 600;
+  margin: 0;
+}
+
+.leader {
+  @extend %label;
+  display: flex;
+  gap: 20px;
+}
+
+.description {
+  margin: 0;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hideImageOnMobile {
+  @include mid-break {
+    display: none;
+  }
+}
+
+.mediaWrapper {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  min-height: 262px;
+}
+
+.image {
+  padding: 24px;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+  max-width: 100%;
+}
+
+.placeholder {
+  background-color: var(--theme-elevation-50);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+
+  @include mid-break {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,147 @@
+@import '../../../../styles/css/common';
+
+.filters {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  @include large-break {
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  @include small-break {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  @include small-break {
+    margin-top: 16px;
+  }
+}
+
+.filterWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.categoryWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sortWrapper{
+  text-align: end;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  overflow: hidden; // Hide overflow during transition
+
+  @include large-break {
+    flex-direction: row;
+    max-width: 0px;
+    transition:  max-width 0.3s ease-in-out 0.3s, opacity 0.3s ease-in-out, overflow 0.3s ease-in-out 0.3s;
+  }
+
+  @include small-break {
+    flex-direction: column;
+    max-height: 0px;
+    transition: max-height 0.3s ease-in-out 0.3s, opacity 0.3s ease-in-out, overflow 0.1s ease-in-out 0.3s;
+  }
+}
+
+.categories_show{
+  
+  @include large-break {
+    max-width: 650px; // Adjust to the actual width of your content
+    transition:  max-width 0.3s ease-in-out 0.3s, opacity 0.3s ease-in-out, overflow 0.1s ease-in-out 0.3s;
+  }
+
+  @include small-break {
+    max-height: 500px;
+    transition: max-height 0.3s ease-in-out 0.3s, opacity 0.3s ease-in-out , overflow 0.1s ease-in-out 0.3s;
+  }
+}
+
+.title {
+    padding: 6.25px 12.5px;
+    width: fit-content;
+    border: 1px solid var(--primary-dim2);
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    &:hover{
+      box-shadow: var(--boxshadow);
+    }
+}
+
+.title_div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  align-items: center;
+  column-gap: 5px;
+  p{
+    display: flex;
+    font-size: 14px;
+  }
+  svg{
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s ease;
+  }
+}
+
+.title_div_rotate{
+  svg {
+    transform: rotate(-180deg); // Rotate SVG 180 degrees on hover
+  }
+}
+
+.priceSlider {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.sliderWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  p {
+    white-space: nowrap;
+  }
+}
+
+.hr {
+  margin: 20px 0;
+}
+
+
+
+/*
+border animation:
+   padding: 12.5px 25px;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 15px rgba(255, 255, 255, 0.1);
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background-image: linear-gradient(black, black), linear-gradient(calc(var(--rotation, 2.5rad),), #888 0, #444 20%, transparent 80%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    position: relative;
+*/

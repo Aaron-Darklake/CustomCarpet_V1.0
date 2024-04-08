@@ -1,0 +1,397 @@
+@import '../scss/_mixins';
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+	position: relative;
+	align-items: center;
+	justify-content: space-evenly;
+	
+
+	.socialIconsContainer{
+		display: inline-flex;
+		.icon {
+			display: flex;
+	
+			
+		  .facebook {
+			
+			  display: inline-flex;
+			  align-items: center;
+			  justify-content: center;
+			  margin-right: 10px;
+			  color: var(--primary-dim);
+			  &:hover {
+				color: #1877F2;
+				transition: ease-in-out 0.3s;
+			  }
+		  
+			 
+		  
+			  svg {
+				height: 1.5rem;
+				padding: 0.2rem;		
+			}
+		}
+		  .instagram {
+			
+			  display: inline-flex;
+			  align-items: center;
+			  justify-content: center;
+			  margin-right: 10px;
+			  color: var(--primary-dim);
+			  &:hover {
+				color: #833ab4;
+				transition: ease-in-out 0.3s;
+			  }
+		  
+			 
+		  
+			  svg {
+				height: 1.5rem;
+				padding: 0.2rem;		
+			}
+		}
+		  .youtube {
+			
+			  display: inline-flex;
+			  align-items: center;
+			  justify-content: center;
+			  margin-right: 10px;
+			  color: var(--primary-dim);
+			  &:hover {
+				color: #FF0000;
+				transition: ease-in-out 0.3s;
+			  }
+		  
+			 
+		  
+			  svg {
+				height: 1.5rem;
+				padding: 0.2rem;		
+			}
+		}
+		  .mail {
+			
+			  display: inline-flex;
+			  align-items: center;
+			  justify-content: center;
+			  margin-right: 10px;
+			  color: var(--primary-dim);
+			  &:hover {
+				color: var(--primary);
+				transition: ease-in-out 0.3s;
+			  }
+		  
+			 
+		  
+			  svg {
+				height: 1.5rem;	
+			}
+		}
+		  }
+}
+	
+	
+	
+	.containerWrap {
+		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: space-between;
+  		margin-left: 2rem;
+		margin-right: 2rem;
+		align-items: flex-start;
+		padding: 30px 50px;
+		width: 100%;
+
+		
+		.companyColumn{
+			flex: 1 1 30%;
+			margin-left: 2rem;
+		    margin-bottom: 30px;
+			
+	  
+		h3 {
+		  font-size: 18px;
+		  font-weight: 600;
+		  margin-bottom: 0.2rem;
+		  font-family: var(--font-sans);
+		}
+	  
+		p {
+		  margin-bottom: 2rem;
+		  margin-top: 8px;
+		  font-family: var(--font-sans);
+		  
+		}
+		.companyDetails{
+			display: flex;
+			margin-top: 1rem;
+			svg {
+				height: 1.5rem;
+				padding: 0.2rem;
+				color: var(--secondary);
+				path {
+					fill: var(--secondary);
+				}
+			}
+			.companyAdress{
+				margin-bottom: 0.3rem;
+				p{
+					display: flex;
+  					flex-direction: row;
+  					align-items: baseline; 
+					font-size: 14px;
+					margin-bottom: 0.3rem;
+					margin-left: 1rem;
+					font-family: var(--font-sans);
+					color: var(--primary);
+				}
+			}
+		}
+		
+		
+		}
+	
+	.column {
+		flex: 1 1 10%;
+		margin-bottom: 0px;
+		.companyMail{
+			margin-bottom: 0.2rem;
+			display: flex;
+			margin-top: 0.5rem;
+			align-items: start;
+			svg {
+				height: 1.5rem;
+				width: 1.9rem;
+				padding: 0.2rem;
+				
+				path {
+					fill: var(--secondary);
+				}
+			}
+			p{
+				display: flex;
+  				flex-direction: row;
+  				align-items: baseline; 
+				font-size: 14px;
+				margin-bottom: 0.1rem;
+				margin-left: 0.7rem;
+				font-family: var(--font-sans);
+				color: var(--primary);
+			}
+		}
+		h3 {
+		  font-size: 16px;
+		  font-weight: 600;
+		  margin-bottom: 15px;
+		  font-family: var(--font-sans);
+		}
+	  
+		p {
+		  margin-bottom: 8px;
+		}
+	  
+		ul {
+		  padding-left: 0;
+		  list-style-type: none;
+	  
+		  li {
+			margin-bottom: 8px;
+			button{
+				text-decoration: none;
+			  font-family: var(--font-sans);
+			  font-weight: 400;
+			  font-size: 14px;
+			  color: var(--primary-dim);
+	  
+			  &:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			  }
+			}
+	  
+			a {
+			  text-decoration: none;
+			  font-family: var(--font-sans);
+			  font-weight: 400;
+			  font-size: 14px;
+			  color: var(--primary-dim);
+	  
+			  &:hover {
+				text-decoration: underline;
+			  }
+			}
+		  }
+		}
+	  }
+
+	  .socialIcons {
+		display: flex;
+
+		
+	  .facebook {
+		
+		  display: inline-flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-right: 10px;
+		  color: var(--primary);
+		  &:hover {
+			color: #1877F2;
+			transition: ease-in-out 0.3s;
+		  }
+	  
+		 
+	  
+		  svg {
+			height: 1.5rem;
+			padding: 0.2rem;		
+		}
+	}
+	  .twitter {
+		
+		  display: inline-flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-right: 10px;
+		  color: var(--primary);
+		  &:hover {
+			color: #1DA1F2;
+			transition: ease-in-out 0.3s;
+		  }
+	  
+		 
+	  
+		  svg {
+			height: 1.5rem;
+			padding: 0.2rem;		
+		}
+	}
+	  .linkedin {
+		
+		  display: inline-flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-right: 10px;
+		  color: var(--primary);
+		  &:hover {
+			color: #0077B5;
+			transition: ease-in-out 0.3s;
+		  }
+	  
+		 
+	  
+		  svg {
+			height: 1.5rem;
+			padding: 0.2rem;		
+		}
+	}
+	  .mail {
+		
+		  display: inline-flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-right: 10px;
+		  color: var(--primary);
+		  &:hover {
+			color: var(--primary-bright);
+			transition: ease-in-out 0.3s;
+		  }
+	  
+		 
+	  
+		  svg {
+			height: 1.5rem;
+			padding: 0.2rem;		
+		}
+	}
+	  }
+	  
+	  
+}
+.divider {
+	border: none;
+	border-top: 0.2px solid var(--primary-dim);
+	width: 50%;
+	margin: 30px 0;
+	margin-left: 2rem;
+	margin-right: 2rem;
+  }
+  
+  .copyRight {
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+  }
+}
+
+@include media($max: $mobile) {
+    .container {
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+      .containerWrap {
+		flex-direction: column;
+      	text-align: center;
+      	gap: 3rem;
+      	justify-content: center;
+      	align-items: center;
+        .companyColumn {
+          flex: 1 1 100%; // Full width on mobile
+          margin-bottom: 20px; // Reduce margin on mobile
+		  display: flex;
+		  align-items: center;
+       	  flex-direction: column;
+		  padding-right: 0%;
+		  h3{
+			text-align: center;
+			font-size: 16px;
+		  }
+			 .companyAdress{
+				margin-bottom: 0.2rem;
+				display: flex;
+				align-items: flex-start;
+				flex-direction: column;
+				p{
+					white-space: nowrap;
+					font-size: 14px;
+					margin-bottom: 0.1rem;
+					margin-left: 1rem;
+					font-family: var(--font-sans);
+				}
+			}
+        }
+
+        .column {
+          flex: 1 1 100%; // Full width on mobile
+          margin-bottom: 20px; // Reduce margin on mobile
+		  h3{
+			font-size: 16px;
+		  }
+		  .companyMail{
+			justify-content: flex-start;
+		  p{
+			white-space: nowrap;
+			font-size: 14px;
+			margin-bottom: 0.1rem;
+			font-family: var(--font-sans);
+		}}
+        }
+
+        .socialIcons {
+          justify-content: center; // Center align the social icons
+          margin-bottom: 20px; // Add some space below the social icons
+        }
+      }
+    }
+	.divider {
+		border: none;
+		border-top: 0.5px solid var(--primary-dim);
+		margin: 30px 0;
+		margin-left: 2rem;
+		margin-right: 2rem;
+	  }
+  }

@@ -1,0 +1,66 @@
+@use '../../../styles/css/queries.scss' as *;
+
+.section{
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 100px;
+  padding-left: 144px;
+  padding-right: 144px;
+  @include mid-break{
+  margin-top: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+@include small-break{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+ 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 50px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    @include small-break{
+      font-size: 24px;
+    }
+  }
+  .link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.list {
+  display: grid;
+  gap: 30px;
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  @include mid-break{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include small-break {
+    grid-template-columns: 1fr;
+  }
+}

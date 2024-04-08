@@ -1,0 +1,12 @@
+@import '../../../styles/css/common.scss';
+
+.resetPassword {
+  margin-bottom: 25px;
+  padding-left: 140px;
+  padding-right: 140px;
+  width: 80%;
+  @include small-break{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}

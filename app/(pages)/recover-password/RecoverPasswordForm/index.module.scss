@@ -1,0 +1,67 @@
+@import '../../../../styles/css/common.scss';
+
+.form {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.subTitle {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.requestSuccess {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.openMailBtn {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+
+.submit {
+  width: 100%;
+}
+
+.message {
+  margin-bottom: var(--base);
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.shipping_input_wrapper_2col{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  column-gap: 16px;
+  margin-bottom: -40px;
+  input{
+    border-radius: 8px;
+    margin: 0;
+    height: 44px;
+  }
+}
+
+.shipping_input_wrapper_1col{
+  display: grid;
+  width: 100%;
+  margin-bottom: -40px;
+  grid-template-columns: repeat(1, minmax(0,1fr));
+  input{
+    border-radius: 8px;
+    margin: 0;
+    margin-bottom: 16px;
+    height: 44px;
+  }
+}

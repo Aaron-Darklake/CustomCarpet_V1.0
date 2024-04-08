@@ -1,0 +1,29 @@
+@import '../../../styles/css/type.scss';
+
+.pagination {
+  @extend %label;
+  display: flex;
+  align-items: center;
+  gap: calc(20px / 2);
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  padding: calc(20px / 2);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+
+  &:disabled {
+    cursor: not-allowed;
+    color: var(--primary-dim);
+    border-color: var(--primary-dim);
+  }
+}
+
+.icon {
+  width: calc(20px / 2);
+  height: calc(20px / 2);
+}

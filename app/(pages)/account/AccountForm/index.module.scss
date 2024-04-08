@@ -1,0 +1,31 @@
+@import '../../../../styles/css/common';
+
+.form {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: calc(25px / 2);
+  align-items: flex-start;
+  width: 100%;
+  label{
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 32px;
+  }
+  @include mid-break {
+    width: 100%;
+  }
+}
+
+.changePassword {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.submit {
+  margin-top: calc(25px / 2);
+}

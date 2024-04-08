@@ -1,0 +1,43 @@
+@import '../../../styles/css/common.scss';
+
+.login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+}
+
+.login_wrapper{
+    max-width: 500px;
+    width: 100%;
+}
+
+.login_header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.login_content{
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+    b{
+        font-weight: bold;
+    }
+    a{
+        font-weight: 400;
+        text-decoration: underline;
+        &:hover{
+            color: var(--primary);
+        }
+    }
+}

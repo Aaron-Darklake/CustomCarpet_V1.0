@@ -1,0 +1,46 @@
+@import '../../../styles/scss/mixins';
+
+
+.document_fields{
+    position: relative;
+    margin-bottom: 25px;
+    label{
+        display: flex;
+        padding-bottom: 6.25px;
+        font-size: 13px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+}
+
+.document_fields_input_wrapper{
+    input{
+        width: 100%;
+        border: 1px solid var(--primary-dark);
+        background: var(--background-modal-4);
+        height: 50px;
+        line-height: 25px;
+        font-size: 14px;
+        padding: 12.5px 18.75px;
+        &::placeholder{
+            color: var(--primary-dim);
+        }
+    }
+}
+
+.document_fields_main_fields_required{
+    margin-left: 6.25px;
+    margin-right: auto;
+    font-size: 13px;
+    color: var(--error-color-2);
+}
+
+.error{
+    border-color: var(--error-color) !important;
+}
+
+.error_message{
+    font-size: 12px;
+    margin-top: 3px;
+    color: var(--error-color);
+}

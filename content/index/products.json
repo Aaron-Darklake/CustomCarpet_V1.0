@@ -1,0 +1,2622 @@
+[
+    {
+      "id": "65b12400344d6eb574c7273b",
+      "title": "iPad Pro - 11'' 512gb space-gray",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+        
+      ],
+      "slug": "11-inch-ipad-pro-512gb-space-gray",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWfiAsRqOLTtTQFOWKxcr5\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250190,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHEe8RZu9BCJZ\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "11-inch-ipad-pro-512gb-space-gray.",
+        "description": "Experience the 11-inch iPad Pro in stunning Space Gray with 512GB storage - the ultimate blend of power, portability, and style.",
+        "image": {
+          "id":"65b123e9344d6eb574c7272e",
+          "alt":"11-inch-ipad-pro-512gb-space-gray.",
+          "filename":"11-inch-ipad-pro-512gb-space-gray.png",
+          "mimeType":"image/png",
+          "filesize":338011,
+          "width":942,
+          "height":1058,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b1471afde236610cda498e",
+          "title": "Apple Watch Series 9",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1366afde236610cda3d9b",
+      "title": "Watches",
+      "media": {
+        "id": "65b13662fde236610cda3d94",
+        "alt": "Watches",
+        "url": "/categories/watches-category.png", 
+        "filesize": 98736,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+            
+          ],
+          "slug": "apple-watch-series-9",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA8fAsRqOLTtTQlUjirNi1\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116885,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2DV9saF8zbLv\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":45000,\"unit_amount_decimal\":\"45000\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple Watch Series 9",
+            "description": "Apple Watch Series 9, Aluminum: Advanced health and fitness tracking, always-on Retina display, enhanced durability, and seamless integration with iOS.",
+            "image": {
+              "id":"65b1469ffde236610cda495f",
+              "alt":"apple-watch-series-9-aluminumn",
+              "filename":"apple-watch-series-9-aluminum.png",
+              "mimeType":"image/png",
+              "filesize":185937,
+              "width":930,
+              "height":1072,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b14584fde236610cda46db",
+          "title": "Apple Pencil (1st Generation)",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "apple-pencil-1st-generation",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA2zAsRqOLTtTQLFV5YlqP\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116533,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR27KqGHj1CqhO\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":11900,\"unit_amount_decimal\":\"11900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple Pencil (1st Generation)",
+            "description": "Apple Pencil (1st Generation): A precision stylus designed for iPad, offering seamless drawing and note-taking with pressure sensitivity and tilt support",
+            "image": {
+              "id":"65b14531fde236610cda46b6",
+              "alt":"apple-pencil-1st-generation",
+              "filename":"apple-pencil-1st-generation.png",
+              "mimeType":"image/png",
+              "filesize":39044,
+              "width":1720,
+              "height":580,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b142c8fde236610cda445c",
+          "title": "Apple iPad Air, 256GB, Purple",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+            
+          ],
+          "slug": "apple-ipad-air-256gb-purple",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYqGSAsRqOLTtTQp8BACgpI\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705325504,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNbTlOAo439Qsx\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple iPad Air, 256GB, Purple",
+            "description": "Apple iPad Air, 256GB, Purple - Sleek, lightweight design with a vibrant purple finish, featuring a powerful A14 Bionic chip and 10.9-inch Retina display.",
+            "image": {
+              "id":"65b1420efde236610cda4434",
+              "alt":"apple-ipad-air-256gb-purple",
+              "filename":"apple-ipad-air-256gb-purple.png",
+              "mimeType":"image/png",
+              "filesize":359067,
+              "width":950,
+              "height":1060,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b137acfde236610cda3e0b",
+      "title": "MacBook Air - 13'' 256gb space-gray",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+        
+      ],
+      "slug": "macbook-air---13-256gb-space-gray",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "13-inch-macbokk-air-256gb-space-gray",
+        "description": "13-inch-macbokk-air-256gb-space-gray",
+        "image": {
+          "id":"65b136e8fde236610cda3df4",
+          "alt":"13-inch-macbokk-air-256gb-space-gray",
+          "filename":"13-inch-macbokk-air-256gb-space-gray.png",
+          "mimeType":"image/png",
+          "filesize":360697,
+          "width":1870,
+          "height":1190,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b14896fde236610cda4b45",
+          "title": "Adjustable Laptop Riser",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "adjustable-laptop-riser" ,
+          "priceJSON":"{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Adjustable Laptop Riser",
+            "description": "Lamicall Adjustable Laptop Riser, Silver: Sleek, ergonomic stand with height and angle adjustment, providing optimal viewing and typing comfort for laptops.",
+            "image": {
+              "id":"65b1480efde236610cda4b11",
+              "alt":"silver-lamicall-adjustable-laptop-rise",
+              "filename":"silver-lamicall-adjustable-laptop-riser.png",
+              "mimeType":"image/png",
+              "filesize":662297,
+              "width":1132,
+              "height":1314,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+          
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b13f70fde236610cda42a1",
+          "title": "MacBook Air 15''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "macbook-air-15",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWtPAsRqOLTtTQoF5DSFhB\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251039,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHSRyc4CpJv4d\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":279900,\"unit_amount_decimal\":\"279900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "MacBook Air",
+            "description": "Unleash your productivity with the 15-inch MacBook Air in Midnight, offering 2TB storage for all your needs, wrapped in a sleek design.",
+            "image": {
+              "id":"65b13eedfde236610cda4279",
+              "alt":"15-inch-macbook-air-2tb-midnight",
+              "filename":"15-inch-macbook-air-2tb-midnight.png",
+              "mimeType":"image/png",
+              "filesize":648808,
+              "width":1914,
+              "height":1190,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b13ea6fde236610cda4182",
+          "title": "MacBook Pro - 14''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "14-macbook-pro",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWqHAsRqOLTtTQuGXAbSHk\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250845,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHPF7TBS08s3H\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":249900,\"unit_amount_decimal\":\"249900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "14'' MacBook Pro",
+            "description": "14-inch MacBook Pro, 12-core CPU, 1TB storage, Space Black: Unleash peak performance in a stylish, portable powerhouse.",
+            "image": {
+              "id":"65b13e49fde236610cda415d",
+              "alt":"14-inch-macbook-pro-12-core-1tb-space-black",
+              "filename":"14-inch-macbook-pro-12-core-1tb-space-black.png",
+              "mimeType":"image/png",
+              "filesize":240048,
+              "width":1914,
+              "height":1148,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-08-01T00:00:00Z",
+          "createdAt": "2021-08-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-10-01T00:00:00Z",
+      "createdAt": "2021-10-01T00:00:00Z"
+    },
+    {
+      "id": "65b13ea6fde236610cda4182",
+      "title": "MacBook Pro - 14''",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+        
+      ],
+      "slug": "14-macbook-pro",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWqHAsRqOLTtTQuGXAbSHk\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250845,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHPF7TBS08s3H\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":249900,\"unit_amount_decimal\":\"249900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "14'' MacBook Pro",
+        "description": "14-inch MacBook Pro, 12-core CPU, 1TB storage, Space Black: Unleash peak performance in a stylish, portable powerhouse.",
+        "image": {
+          "id":"65b13e49fde236610cda415d",
+          "alt":"14-inch-macbook-pro-12-core-1tb-space-black",
+          "filename":"14-inch-macbook-pro-12-core-1tb-space-black.png",
+          "mimeType":"image/png",
+          "filesize":240048,
+          "width":1914,
+          "height":1148,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b137acfde236610cda3e0b",
+          "title": "MacBook Air - 13'' 256gb space-gray",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "macbook-air---13-256gb-space-gray",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "13-inch-macbokk-air-256gb-space-gray",
+            "description": "13-inch-macbokk-air-256gb-space-gray",
+            "image": {
+              "id":"65b136e8fde236610cda3df4",
+              "alt":"13-inch-macbokk-air-256gb-space-gray",
+              "filename":"13-inch-macbokk-air-256gb-space-gray.png",
+              "mimeType":"image/png",
+              "filesize":360697,
+              "width":1870,
+              "height":1190,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-10-01T00:00:00Z",
+          "createdAt": "2021-10-01T00:00:00Z"
+        },
+        {
+          "id": "65b14584fde236610cda46db",
+          "title": "Apple Pencil (1st Generation)",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "apple-pencil-1st-generation",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA2zAsRqOLTtTQLFV5YlqP\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116533,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR27KqGHj1CqhO\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":11900,\"unit_amount_decimal\":\"11900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple Pencil (1st Generation)",
+            "description": "Apple Pencil (1st Generation): A precision stylus designed for iPad, offering seamless drawing and note-taking with pressure sensitivity and tilt support",
+            "image": {
+              "id":"65b14531fde236610cda46b6",
+              "alt":"apple-pencil-1st-generation",
+              "filename":"apple-pencil-1st-generation.png",
+              "mimeType":"image/png",
+              "filesize":39044,
+              "width":1720,
+              "height":580,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b14896fde236610cda4b45",
+          "title": "Adjustable Laptop Riser",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "adjustable-laptop-riser" ,
+          "priceJSON":"{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Adjustable Laptop Riser",
+            "description": "Lamicall Adjustable Laptop Riser, Silver: Sleek, ergonomic stand with height and angle adjustment, providing optimal viewing and typing comfort for laptops.",
+            "image": {
+              "id":"65b1480efde236610cda4b11",
+              "alt":"silver-lamicall-adjustable-laptop-rise",
+              "filename":"silver-lamicall-adjustable-laptop-riser.png",
+              "mimeType":"image/png",
+              "filesize":662297,
+              "width":1132,
+              "height":1314,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+          
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-08-01T00:00:00Z",
+      "createdAt": "2021-08-01T00:00:00Z"
+    },
+    {
+      "id": "65b13f70fde236610cda42a1",
+      "title": "MacBook Air 15''",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+        
+      ],
+      "slug": "macbook-air-15",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWtPAsRqOLTtTQoF5DSFhB\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251039,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHSRyc4CpJv4d\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":279900,\"unit_amount_decimal\":\"279900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "MacBook Air",
+        "description": "Unleash your productivity with the 15-inch MacBook Air in Midnight, offering 2TB storage for all your needs, wrapped in a sleek design.",
+        "image": {
+          "id":"65b13eedfde236610cda4279",
+          "alt":"15-inch-macbook-air-2tb-midnight",
+          "filename":"15-inch-macbook-air-2tb-midnight.png",
+          "mimeType":"image/png",
+          "filesize":648808,
+          "width":1914,
+          "height":1190,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b137acfde236610cda3e0b",
+          "title": "MacBook Air - 13'' 256gb space-gray",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "macbook-air---13-256gb-space-gray",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "13-inch-macbokk-air-256gb-space-gray",
+            "description": "13-inch-macbokk-air-256gb-space-gray",
+            "image": {
+              "id":"65b136e8fde236610cda3df4",
+              "alt":"13-inch-macbokk-air-256gb-space-gray",
+              "filename":"13-inch-macbokk-air-256gb-space-gray.png",
+              "mimeType":"image/png",
+              "filesize":360697,
+              "width":1870,
+              "height":1190,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-10-01T00:00:00Z",
+          "createdAt": "2021-10-01T00:00:00Z"
+        },
+        {
+          "id": "65b13ea6fde236610cda4182",
+          "title": "MacBook Pro - 14''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "14-macbook-pro",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWqHAsRqOLTtTQuGXAbSHk\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250845,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHPF7TBS08s3H\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":249900,\"unit_amount_decimal\":\"249900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "14'' MacBook Pro",
+            "description": "14-inch MacBook Pro, 12-core CPU, 1TB storage, Space Black: Unleash peak performance in a stylish, portable powerhouse.",
+            "image": {
+              "id":"65b13e49fde236610cda415d",
+              "alt":"14-inch-macbook-pro-12-core-1tb-space-black",
+              "filename":"14-inch-macbook-pro-12-core-1tb-space-black.png",
+              "mimeType":"image/png",
+              "filesize":240048,
+              "width":1914,
+              "height":1148,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-08-01T00:00:00Z",
+          "createdAt": "2021-08-01T00:00:00Z"
+        },
+        {
+          "id": "65b14896fde236610cda4b45",
+          "title": "Adjustable Laptop Riser",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "adjustable-laptop-riser" ,
+          "priceJSON":"{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Adjustable Laptop Riser",
+            "description": "Lamicall Adjustable Laptop Riser, Silver: Sleek, ergonomic stand with height and angle adjustment, providing optimal viewing and typing comfort for laptops.",
+            "image": {
+              "id":"65b1480efde236610cda4b11",
+              "alt":"silver-lamicall-adjustable-laptop-rise",
+              "filename":"silver-lamicall-adjustable-laptop-riser.png",
+              "mimeType":"image/png",
+              "filesize":662297,
+              "width":1132,
+              "height":1314,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+          
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b140f6fde236610cda4343",
+      "title": "AirPods Max",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+        
+      ],
+      "slug": "airpods-max",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWxCAsRqOLTtTQX4QvVIoq\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251274,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHWe6lR2U09qN\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":24900,\"unit_amount_decimal\":\"24900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "AirPods Max",
+        "description": "Experience unparalleled audio excellence with the AirPods Max, Apple's premium wireless over-ear headphones, designed for ultimate sound quality and comfort.",
+        "image": {
+          "id":"65b14033fde236610cda430d",
+          "alt":"airpods-max",
+          "filename":"airpods-max.png",
+          "mimeType":"image/png",
+          "filesize":210717,
+          "width":1058,
+          "height":1110,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b14896fde236610cda4b45",
+          "title": "Adjustable Laptop Riser",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "adjustable-laptop-riser" ,
+          "priceJSON":"{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Adjustable Laptop Riser",
+            "description": "Lamicall Adjustable Laptop Riser, Silver: Sleek, ergonomic stand with height and angle adjustment, providing optimal viewing and typing comfort for laptops.",
+            "image": {
+              "id":"65b1480efde236610cda4b11",
+              "alt":"silver-lamicall-adjustable-laptop-rise",
+              "filename":"silver-lamicall-adjustable-laptop-riser.png",
+              "mimeType":"image/png",
+              "filesize":662297,
+              "width":1132,
+              "height":1314,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+          
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b147e4fde236610cda4a67",
+          "title": "Apple Watch Ultra 2",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1366afde236610cda3d9b",
+      "title": "Watches",
+      "media": {
+        "id": "65b13662fde236610cda3d94",
+        "alt": "Watches",
+        "url": "/categories/watches-category.png", 
+        "filesize": 98736,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+            
+          ],
+          "slug": "apple-watch-ultra-2",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcABmAsRqOLTtTQ8jwt9gpl\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706117078,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2GaWE1QPudjj\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":59900,\"unit_amount_decimal\":\"59900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple Watch Ultra 2",
+            "description": "Apple Watch Ultra 2: Rugged, high-performance smartwatch with advanced health and fitness features, enhanced durability, and superior navigation capabilities.",
+            "image": {
+              "id":"65b14761fde236610cda4a33",
+              "alt":"apple-watch-ultra-2",
+              "filename":"apple-watch-ultra-2.png",
+              "mimeType":"image/png",
+              "filesize":523660,
+              "width":944,
+              "height":1034,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b14639fde236610cda4834",
+          "title": "Apple TV",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1364dfde236610cda3d7a",
+      "title": "TV",
+      "media": {
+        "id": "65b13649fde236610cda3d73",
+        "alt": "TV",
+        "url": "/categories/tv-home-category.png", 
+        "filesize": 29374,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+            
+          ],
+          "slug": "apple-tv",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA5vAsRqOLTtTQR6VXz5hs\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116715,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2A4Bheu16ANR\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":18000,\"unit_amount_decimal\":\"18000\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple TV",
+            "description": "Apple TV 4K with WiFi: A high-definition media player offering 4K HDR streaming, Dolby Atmos sound, Siri voice control, and seamless Apple ecosystem integration.",
+            "image": {
+              "id":"65b145eafde236610cda4806",
+              "alt":"apple-tv-4k-wifi",
+              "filename":"apple-tv-4k-wifi.png",
+              "mimeType":"image/png",
+              "filesize":154457,
+              "width":1104,
+              "height":1052,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b141ddfde236610cda43c4",
+      "title": "AirPods Pro - 2nd Generation",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+        
+      ],
+      "slug": "airpods-pro---2nd-generation",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYqD8AsRqOLTtTQ2jpIGIdH\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705325298,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNbPpDe8WlsiSw\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":26900,\"unit_amount_decimal\":\"26900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "airpods-pro-2nd-generation",
+        "description": "2nd Generation AirPods Pro – premium audio, active noise cancellation, and effortless connectivity, redefined by cutting-edge wireless earbuds.",
+        "image": {
+          "id":"65b1410ffde236610cda439f",
+          "alt":"airpods-pro-2nd-generation",
+          "filename":"airpods-pro-2nd-generation.png",
+          "mimeType":"image/png",
+          "filesize":95411,
+          "width":744,
+          "height":918,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b140f6fde236610cda4343",
+          "title": "AirPods Max",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "airpods-max",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWxCAsRqOLTtTQX4QvVIoq\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251274,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHWe6lR2U09qN\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":24900,\"unit_amount_decimal\":\"24900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "AirPods Max",
+            "description": "Experience unparalleled audio excellence with the AirPods Max, Apple's premium wireless over-ear headphones, designed for ultimate sound quality and comfort.",
+            "image": {
+              "id":"65b14033fde236610cda430d",
+              "alt":"airpods-max",
+              "filename":"airpods-max.png",
+              "mimeType":"image/png",
+              "filesize":210717,
+              "width":1058,
+              "height":1110,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b142c8fde236610cda445c",
+      "title": "Apple iPad Air, 256GB, Purple",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+        
+      ],
+      "slug": "apple-ipad-air-256gb-purple",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYqGSAsRqOLTtTQp8BACgpI\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705325504,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNbTlOAo439Qsx\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple iPad Air, 256GB, Purple",
+        "description": "Apple iPad Air, 256GB, Purple - Sleek, lightweight design with a vibrant purple finish, featuring a powerful A14 Bionic chip and 10.9-inch Retina display.",
+        "image": {
+          "id":"65b1420efde236610cda4434",
+          "alt":"apple-ipad-air-256gb-purple",
+          "filename":"apple-ipad-air-256gb-purple.png",
+          "mimeType":"image/png",
+          "filesize":359067,
+          "width":950,
+          "height":1060,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b12400344d6eb574c7273b",
+          "title": "iPad Pro - 11'' 512gb space-gray",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+            
+          ],
+          "slug": "11-inch-ipad-pro-512gb-space-gray",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWfiAsRqOLTtTQFOWKxcr5\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250190,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHEe8RZu9BCJZ\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "11-inch-ipad-pro-512gb-space-gray.",
+            "description": "Experience the 11-inch iPad Pro in stunning Space Gray with 512GB storage - the ultimate blend of power, portability, and style.",
+            "image": {
+              "id":"65b123e9344d6eb574c7272e",
+              "alt":"11-inch-ipad-pro-512gb-space-gray.",
+              "filename":"11-inch-ipad-pro-512gb-space-gray.png",
+              "mimeType":"image/png",
+              "filesize":338011,
+              "width":942,
+              "height":1058,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b13f70fde236610cda42a1",
+          "title": "MacBook Air 15''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "macbook-air-15",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWtPAsRqOLTtTQoF5DSFhB\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251039,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHSRyc4CpJv4d\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":279900,\"unit_amount_decimal\":\"279900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "MacBook Air",
+            "description": "Unleash your productivity with the 15-inch MacBook Air in Midnight, offering 2TB storage for all your needs, wrapped in a sleek design.",
+            "image": {
+              "id":"65b13eedfde236610cda4279",
+              "alt":"15-inch-macbook-air-2tb-midnight",
+              "filename":"15-inch-macbook-air-2tb-midnight.png",
+              "mimeType":"image/png",
+              "filesize":648808,
+              "width":1914,
+              "height":1190,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b13ea6fde236610cda4182",
+          "title": "MacBook Pro - 14''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "14-macbook-pro",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWqHAsRqOLTtTQuGXAbSHk\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250845,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHPF7TBS08s3H\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":249900,\"unit_amount_decimal\":\"249900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "14'' MacBook Pro",
+            "description": "14-inch MacBook Pro, 12-core CPU, 1TB storage, Space Black: Unleash peak performance in a stylish, portable powerhouse.",
+            "image": {
+              "id":"65b13e49fde236610cda415d",
+              "alt":"14-inch-macbook-pro-12-core-1tb-space-black",
+              "filename":"14-inch-macbook-pro-12-core-1tb-space-black.png",
+              "mimeType":"image/png",
+              "filesize":240048,
+              "width":1914,
+              "height":1148,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-08-01T00:00:00Z",
+          "createdAt": "2021-08-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b1433afde236610cda44ea",
+      "title": "Apple iPhone 14, 128GB, Blue",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    }
+        
+      ],
+      "slug": "apple-iphone-14-128gb-blue",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYrFOAsRqOLTtTQomWsOwG5\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705329282,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNcUioe9gUg70p\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":139900,\"unit_amount_decimal\":\"139900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple iPhone 14, 128GB, Blue",
+        "description": "Apple iPhone 14, 128GB, Blue: 6.1-inch Super Retina display, A15 Bionic, dual-camera, 5G, durable design, and long battery life in a striking blue.",
+        "image": {
+          "id":"65b142e9fde236610cda44c8",
+          "alt":"apple-iphone-14-128gb-blue",
+          "filename":"apple-iphone-14-128gb-blue.png",
+          "mimeType":"image/png",
+          "filesize":212706,
+          "width":824,
+          "height":1090,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b1443efde236610cda457c",
+          "title": "Apple iPhone 15 Pro",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    }
+            
+          ],
+          "slug": "apple-iphone-15-pro",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYUtoAsRqOLTtTQjUPwOGM7\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705243376,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNFOwRzKDGBFee\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":149900,\"unit_amount_decimal\":\"149900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple iPhone 15 Pro",
+            "description": "Apple iPhone 15 Pro, 1TB, Blue Titanium: Featuring a dynamic 6.7-inch display, A16 chip, pro camera system, 5G, and a premium blue titanium finish",
+            "image": {
+              "id":"65b143c5fde236610cda4557",
+              "alt":"apple-iphone-15-pro-1tb-blue-titanium",
+              "filename":"apple-iphone-15-pro-1tb-blue-titanium.png",
+              "mimeType":"image/png",
+              "filesize":368479,
+              "width":852,
+              "height":986,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b137acfde236610cda3e0b",
+          "title": "MacBook Air - 13'' 256gb space-gray",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "macbook-air---13-256gb-space-gray",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "13-inch-macbokk-air-256gb-space-gray",
+            "description": "13-inch-macbokk-air-256gb-space-gray",
+            "image": {
+              "id":"65b136e8fde236610cda3df4",
+              "alt":"13-inch-macbokk-air-256gb-space-gray",
+              "filename":"13-inch-macbokk-air-256gb-space-gray.png",
+              "mimeType":"image/png",
+              "filesize":360697,
+              "width":1870,
+              "height":1190,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-10-01T00:00:00Z",
+          "createdAt": "2021-10-01T00:00:00Z"
+        },
+        {
+          "id": "65b13ea6fde236610cda4182",
+          "title": "MacBook Pro - 14''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "14-macbook-pro",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWqHAsRqOLTtTQuGXAbSHk\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250845,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHPF7TBS08s3H\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":249900,\"unit_amount_decimal\":\"249900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "14'' MacBook Pro",
+            "description": "14-inch MacBook Pro, 12-core CPU, 1TB storage, Space Black: Unleash peak performance in a stylish, portable powerhouse.",
+            "image": {
+              "id":"65b13e49fde236610cda415d",
+              "alt":"14-inch-macbook-pro-12-core-1tb-space-black",
+              "filename":"14-inch-macbook-pro-12-core-1tb-space-black.png",
+              "mimeType":"image/png",
+              "filesize":240048,
+              "width":1914,
+              "height":1148,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-08-01T00:00:00Z",
+          "createdAt": "2021-08-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b1443efde236610cda457c",
+      "title": "Apple iPhone 15 Pro",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    }
+        
+      ],
+      "slug": "apple-iphone-15-pro",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYUtoAsRqOLTtTQjUPwOGM7\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705243376,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNFOwRzKDGBFee\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":149900,\"unit_amount_decimal\":\"149900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple iPhone 15 Pro",
+        "description": "Apple iPhone 15 Pro, 1TB, Blue Titanium: Featuring a dynamic 6.7-inch display, A16 chip, pro camera system, 5G, and a premium blue titanium finish",
+        "image": {
+          "id":"65b143c5fde236610cda4557",
+          "alt":"apple-iphone-15-pro-1tb-blue-titanium",
+          "filename":"apple-iphone-15-pro-1tb-blue-titanium.png",
+          "mimeType":"image/png",
+          "filesize":368479,
+          "width":852,
+          "height":986,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b14508fde236610cda4611",
+      "title": "Apple iPhone 15 Pro Max",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    }
+        
+      ],
+      "slug": "apple-iphone-15-pro-max",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1Oc9zoAsRqOLTtTQKP06Ieco\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116336,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR23MYtNrw841c\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple iPhone 15 Pro Max",
+        "description": "Apple iPhone 15 Pro Max, 256GB, Natural Titanium: Boasts a large 6.7-inch display, powerful A16 chip, pro-grade cameras, 5G, in a sleek titanium build.",
+        "image": {
+          "id":"65b1446dfde236610cda45e8",
+          "alt":"apple-iphone-15-pro-max-256gb-natural-titanium.",
+          "filename":"apple-iphone-15-pro-max-256gb-natural-titanium.png",
+          "mimeType":"image/png",
+          "filesize":376097,
+          "width":758,
+          "height":1038,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b1443efde236610cda457c",
+          "title": "Apple iPhone 15 Pro",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    }
+            
+          ],
+          "slug": "apple-iphone-15-pro",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYUtoAsRqOLTtTQjUPwOGM7\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705243376,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNFOwRzKDGBFee\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":149900,\"unit_amount_decimal\":\"149900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple iPhone 15 Pro",
+            "description": "Apple iPhone 15 Pro, 1TB, Blue Titanium: Featuring a dynamic 6.7-inch display, A16 chip, pro camera system, 5G, and a premium blue titanium finish",
+            "image": {
+              "id":"65b143c5fde236610cda4557",
+              "alt":"apple-iphone-15-pro-1tb-blue-titanium",
+              "filename":"apple-iphone-15-pro-1tb-blue-titanium.png",
+              "mimeType":"image/png",
+              "filesize":368479,
+              "width":852,
+              "height":986,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b1433afde236610cda44ea",
+          "title": "Apple iPhone 14, 128GB, Blue",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    }
+            
+          ],
+          "slug": "apple-iphone-14-128gb-blue",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYrFOAsRqOLTtTQomWsOwG5\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705329282,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNcUioe9gUg70p\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":139900,\"unit_amount_decimal\":\"139900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple iPhone 14, 128GB, Blue",
+            "description": "Apple iPhone 14, 128GB, Blue: 6.1-inch Super Retina display, A15 Bionic, dual-camera, 5G, durable design, and long battery life in a striking blue.",
+            "image": {
+              "id":"65b142e9fde236610cda44c8",
+              "alt":"apple-iphone-14-128gb-blue",
+              "filename":"apple-iphone-14-128gb-blue.png",
+              "mimeType":"image/png",
+              "filesize":212706,
+              "width":824,
+              "height":1090,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b14584fde236610cda46db",
+      "title": "Apple Pencil (1st Generation)",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+        
+      ],
+      "slug": "apple-pencil-1st-generation",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA2zAsRqOLTtTQLFV5YlqP\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116533,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR27KqGHj1CqhO\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":11900,\"unit_amount_decimal\":\"11900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple Pencil (1st Generation)",
+        "description": "Apple Pencil (1st Generation): A precision stylus designed for iPad, offering seamless drawing and note-taking with pressure sensitivity and tilt support",
+        "image": {
+          "id":"65b14531fde236610cda46b6",
+          "alt":"apple-pencil-1st-generation",
+          "filename":"apple-pencil-1st-generation.png",
+          "mimeType":"image/png",
+          "filesize":39044,
+          "width":1720,
+          "height":580,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b12400344d6eb574c7273b",
+          "title": "iPad Pro - 11'' 512gb space-gray",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+            
+          ],
+          "slug": "11-inch-ipad-pro-512gb-space-gray",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWfiAsRqOLTtTQFOWKxcr5\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250190,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHEe8RZu9BCJZ\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "11-inch-ipad-pro-512gb-space-gray.",
+            "description": "Experience the 11-inch iPad Pro in stunning Space Gray with 512GB storage - the ultimate blend of power, portability, and style.",
+            "image": {
+              "id":"65b123e9344d6eb574c7272e",
+              "alt":"11-inch-ipad-pro-512gb-space-gray.",
+              "filename":"11-inch-ipad-pro-512gb-space-gray.png",
+              "mimeType":"image/png",
+              "filesize":338011,
+              "width":942,
+              "height":1058,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b140f6fde236610cda4343",
+          "title": "AirPods Max",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "airpods-max",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWxCAsRqOLTtTQX4QvVIoq\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251274,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHWe6lR2U09qN\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":24900,\"unit_amount_decimal\":\"24900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "AirPods Max",
+            "description": "Experience unparalleled audio excellence with the AirPods Max, Apple's premium wireless over-ear headphones, designed for ultimate sound quality and comfort.",
+            "image": {
+              "id":"65b14033fde236610cda430d",
+              "alt":"airpods-max",
+              "filename":"airpods-max.png",
+              "mimeType":"image/png",
+              "filesize":210717,
+              "width":1058,
+              "height":1110,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b142c8fde236610cda445c",
+          "title": "Apple iPad Air, 256GB, Purple",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+            
+          ],
+          "slug": "apple-ipad-air-256gb-purple",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYqGSAsRqOLTtTQp8BACgpI\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705325504,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNbTlOAo439Qsx\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple iPad Air, 256GB, Purple",
+            "description": "Apple iPad Air, 256GB, Purple - Sleek, lightweight design with a vibrant purple finish, featuring a powerful A14 Bionic chip and 10.9-inch Retina display.",
+            "image": {
+              "id":"65b1420efde236610cda4434",
+              "alt":"apple-ipad-air-256gb-purple",
+              "filename":"apple-ipad-air-256gb-purple.png",
+              "mimeType":"image/png",
+              "filesize":359067,
+              "width":950,
+              "height":1060,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b14639fde236610cda4834",
+      "title": "Apple TV",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b1364dfde236610cda3d7a",
+      "title": "TV",
+      "media": {
+        "id": "65b13649fde236610cda3d73",
+        "alt": "TV",
+        "url": "/categories/tv-home-category.png", 
+        "filesize": 29374,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+        
+      ],
+      "slug": "apple-tv",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA5vAsRqOLTtTQR6VXz5hs\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116715,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2A4Bheu16ANR\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":18000,\"unit_amount_decimal\":\"18000\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple TV",
+        "description": "Apple TV 4K with WiFi: A high-definition media player offering 4K HDR streaming, Dolby Atmos sound, Siri voice control, and seamless Apple ecosystem integration.",
+        "image": {
+          "id":"65b145eafde236610cda4806",
+          "alt":"apple-tv-4k-wifi",
+          "filename":"apple-tv-4k-wifi.png",
+          "mimeType":"image/png",
+          "filesize":154457,
+          "width":1104,
+          "height":1052,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b13f70fde236610cda42a1",
+          "title": "MacBook Air 15''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "macbook-air-15",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWtPAsRqOLTtTQoF5DSFhB\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251039,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHSRyc4CpJv4d\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":279900,\"unit_amount_decimal\":\"279900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "MacBook Air",
+            "description": "Unleash your productivity with the 15-inch MacBook Air in Midnight, offering 2TB storage for all your needs, wrapped in a sleek design.",
+            "image": {
+              "id":"65b13eedfde236610cda4279",
+              "alt":"15-inch-macbook-air-2tb-midnight",
+              "filename":"15-inch-macbook-air-2tb-midnight.png",
+              "mimeType":"image/png",
+              "filesize":648808,
+              "width":1914,
+              "height":1190,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b142c8fde236610cda445c",
+          "title": "Apple iPad Air, 256GB, Purple",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+            
+          ],
+          "slug": "apple-ipad-air-256gb-purple",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYqGSAsRqOLTtTQp8BACgpI\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705325504,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNbTlOAo439Qsx\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple iPad Air, 256GB, Purple",
+            "description": "Apple iPad Air, 256GB, Purple - Sleek, lightweight design with a vibrant purple finish, featuring a powerful A14 Bionic chip and 10.9-inch Retina display.",
+            "image": {
+              "id":"65b1420efde236610cda4434",
+              "alt":"apple-ipad-air-256gb-purple",
+              "filename":"apple-ipad-air-256gb-purple.png",
+              "mimeType":"image/png",
+              "filesize":359067,
+              "width":950,
+              "height":1060,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b14584fde236610cda46db",
+          "title": "Apple Pencil (1st Generation)",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "apple-pencil-1st-generation",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA2zAsRqOLTtTQLFV5YlqP\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116533,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR27KqGHj1CqhO\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":11900,\"unit_amount_decimal\":\"11900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple Pencil (1st Generation)",
+            "description": "Apple Pencil (1st Generation): A precision stylus designed for iPad, offering seamless drawing and note-taking with pressure sensitivity and tilt support",
+            "image": {
+              "id":"65b14531fde236610cda46b6",
+              "alt":"apple-pencil-1st-generation",
+              "filename":"apple-pencil-1st-generation.png",
+              "mimeType":"image/png",
+              "filesize":39044,
+              "width":1720,
+              "height":580,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b1471afde236610cda498e",
+      "title": "Apple Watch Series 9",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b1366afde236610cda3d9b",
+      "title": "Watches",
+      "media": {
+        "id": "65b13662fde236610cda3d94",
+        "alt": "Watches",
+        "url": "/categories/watches-category.png", 
+        "filesize": 98736,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+        
+      ],
+      "slug": "apple-watch-series-9",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA8fAsRqOLTtTQlUjirNi1\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116885,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2DV9saF8zbLv\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":45000,\"unit_amount_decimal\":\"45000\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple Watch Series 9",
+        "description": "Apple Watch Series 9, Aluminum: Advanced health and fitness tracking, always-on Retina display, enhanced durability, and seamless integration with iOS.",
+        "image": {
+          "id":"65b1469ffde236610cda495f",
+          "alt":"apple-watch-series-9-aluminumn",
+          "filename":"apple-watch-series-9-aluminum.png",
+          "mimeType":"image/png",
+          "filesize":185937,
+          "width":930,
+          "height":1072,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b12400344d6eb574c7273b",
+          "title": "iPad Pro - 11'' 512gb space-gray",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13493fde236610cda3d11",
+      "title": "iPads",
+      "media": {
+        "id": "65b1348dfde236610cda3d0a",
+        "alt": "iPads",
+        "url": "/categories/ipads-category.png", 
+        "filesize": 30200,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:02",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:02",
+      "updatedAt": "2024-01-24T16:02"
+    }
+            
+          ],
+          "slug": "apple-watch-ultra-2",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWfiAsRqOLTtTQFOWKxcr5\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250190,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHEe8RZu9BCJZ\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":69900,\"unit_amount_decimal\":\"69900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "11-inch-ipad-pro-512gb-space-gray.",
+            "description": "Experience the 11-inch iPad Pro in stunning Space Gray with 512GB storage - the ultimate blend of power, portability, and style.",
+            "image": {
+              "id":"65b123e9344d6eb574c7272e",
+              "alt":"11-inch-ipad-pro-512gb-space-gray.",
+              "filename":"11-inch-ipad-pro-512gb-space-gray.png",
+              "mimeType":"image/png",
+              "filesize":338011,
+              "width":942,
+              "height":1058,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b14639fde236610cda4834",
+          "title": "Apple TV",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1364dfde236610cda3d7a",
+      "title": "TV",
+      "media": {
+        "id": "65b13649fde236610cda3d73",
+        "alt": "TV",
+        "url": "/categories/tv-home-category.png", 
+        "filesize": 29374,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+            
+          ],
+          "slug": "apple-tv",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA5vAsRqOLTtTQR6VXz5hs\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116715,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2A4Bheu16ANR\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":18000,\"unit_amount_decimal\":\"18000\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple TV",
+            "description": "Apple TV 4K with WiFi: A high-definition media player offering 4K HDR streaming, Dolby Atmos sound, Siri voice control, and seamless Apple ecosystem integration.",
+            "image": {
+              "id":"65b145eafde236610cda4806",
+              "alt":"apple-tv-4k-wifi",
+              "filename":"apple-tv-4k-wifi.png",
+              "mimeType":"image/png",
+              "filesize":154457,
+              "width":1104,
+              "height":1052,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b1433afde236610cda44ea",
+          "title": "Apple iPhone 14, 128GB, Blue",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b13635fde236610cda3d59",
+      "title": "iPhones",
+      "media": {
+        "id": "65b1362cfde236610cda3d52",
+        "alt": "iPhones",
+        "url": "/categories/phones-category.png", 
+        "filesize": 44293,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:00",
+        "updatedAt":"2024-01-24T16:00"      
+      },
+      "createdAt": "2024-01-24T16:00",
+      "updatedAt": "2024-01-24T16:00"
+    }
+            
+          ],
+          "slug": "apple-iphone-14-128gb-blue",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYrFOAsRqOLTtTQomWsOwG5\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705329282,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNcUioe9gUg70p\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":139900,\"unit_amount_decimal\":\"139900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple iPhone 14, 128GB, Blue",
+            "description": "Apple iPhone 14, 128GB, Blue: 6.1-inch Super Retina display, A15 Bionic, dual-camera, 5G, durable design, and long battery life in a striking blue.",
+            "image": {
+              "id":"65b142e9fde236610cda44c8",
+              "alt":"apple-iphone-14-128gb-blue",
+              "filename":"apple-iphone-14-128gb-blue.png",
+              "mimeType":"image/png",
+              "filesize":212706,
+              "width":824,
+              "height":1090,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b147e4fde236610cda4a67",
+      "title": "Apple Watch Ultra 2",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b1366afde236610cda3d9b",
+      "title": "Watches",
+      "media": {
+        "id": "65b13662fde236610cda3d94",
+        "alt": "Watches",
+        "url": "/categories/watches-category.png", 
+        "filesize": 98736,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+        
+      ],
+      "slug": "apple-watch-ultra-2",
+      "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcABmAsRqOLTtTQ8jwt9gpl\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706117078,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2GaWE1QPudjj\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":59900,\"unit_amount_decimal\":\"59900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Apple Watch Ultra 2",
+        "description": "Apple Watch Ultra 2: Rugged, high-performance smartwatch with advanced health and fitness features, enhanced durability, and superior navigation capabilities.",
+        "image": {
+          "id":"65b14761fde236610cda4a33",
+          "alt":"apple-watch-ultra-2",
+          "filename":"apple-watch-ultra-2.png",
+          "mimeType":"image/png",
+          "filesize":523660,
+          "width":944,
+          "height":1034,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts":[
+        {
+          "id": "65b1471afde236610cda498e",
+          "title": "Apple Watch Series 9",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1366afde236610cda3d9b",
+      "title": "Watches",
+      "media": {
+        "id": "65b13662fde236610cda3d94",
+        "alt": "Watches",
+        "url": "/categories/watches-category.png", 
+        "filesize": 98736,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T15:00",
+        "updatedAt":"2024-01-24T15:00"      
+      },
+      "createdAt": "2024-01-24T15:00",
+      "updatedAt": "2024-01-24T15:00"
+    }
+            
+          ],
+          "slug": "apple-watch-series-9",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA8fAsRqOLTtTQlUjirNi1\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116885,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR2DV9saF8zbLv\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":45000,\"unit_amount_decimal\":\"45000\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple Watch Series 9",
+            "description": "Apple Watch Series 9, Aluminum: Advanced health and fitness tracking, always-on Retina display, enhanced durability, and seamless integration with iOS.",
+            "image": {
+              "id":"65b1469ffde236610cda495f",
+              "alt":"apple-watch-series-9-aluminumn",
+              "filename":"apple-watch-series-9-aluminum.png",
+              "mimeType":"image/png",
+              "filesize":185937,
+              "width":930,
+              "height":1072,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b141ddfde236610cda43c4",
+          "title": "AirPods Pro - 2nd Generation",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "airpods-pro---2nd-generation",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYqD8AsRqOLTtTQ2jpIGIdH\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705325298,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNbPpDe8WlsiSw\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":26900,\"unit_amount_decimal\":\"26900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "airpods-pro-2nd-generation",
+            "description": "2nd Generation AirPods Pro – premium audio, active noise cancellation, and effortless connectivity, redefined by cutting-edge wireless earbuds.",
+            "image": {
+              "id":"65b1410ffde236610cda439f",
+              "alt":"airpods-pro-2nd-generation",
+              "filename":"airpods-pro-2nd-generation.png",
+              "mimeType":"image/png",
+              "filesize":95411,
+              "width":744,
+              "height":918,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b140f6fde236610cda4343",
+          "title": "AirPods Max",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "airpods-max",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWxCAsRqOLTtTQX4QvVIoq\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251274,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHWe6lR2U09qN\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":24900,\"unit_amount_decimal\":\"24900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "AirPods Max",
+            "description": "Experience unparalleled audio excellence with the AirPods Max, Apple's premium wireless over-ear headphones, designed for ultimate sound quality and comfort.",
+            "image": {
+              "id":"65b14033fde236610cda430d",
+              "alt":"airpods-max",
+              "filename":"airpods-max.png",
+              "mimeType":"image/png",
+              "filesize":210717,
+              "width":1058,
+              "height":1110,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    },
+    {
+      "id": "65b14896fde236610cda4b45",
+      "title": "Adjustable Laptop Riser",
+      "publishedOn": "2021-09-01T00:00:00Z",
+      "relationTo": "products",
+      "categories": [
+        
+          {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+        
+      ],
+      "slug": "adjustable-laptop-riser" ,
+      "priceJSON":"{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+      "meta":{
+        "title": "Adjustable Laptop Riser",
+        "description": "Lamicall Adjustable Laptop Riser, Silver: Sleek, ergonomic stand with height and angle adjustment, providing optimal viewing and typing comfort for laptops.",
+        "image": {
+          "id":"65b1480efde236610cda4b11",
+          "alt":"silver-lamicall-adjustable-laptop-rise",
+          "filename":"silver-lamicall-adjustable-laptop-riser.png",
+          "mimeType":"image/png",
+          "filesize":662297,
+          "width":1132,
+          "height":1314,
+          "createdAt":"1706107881661",
+          "updatedAt":"1706107881661"
+      },
+      
+        "updatedAt": "2021-09-01T00:00:00Z",
+        "createdAt": "2021-09-01T00:00:00Z"
+      },
+      "relatedProducts": [
+        {
+          "id": "65b14584fde236610cda46db",
+          "title": "Apple Pencil (1st Generation)",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "apple-pencil-1st-generation",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OcA2zAsRqOLTtTQLFV5YlqP\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1706116533,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PR27KqGHj1CqhO\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":11900,\"unit_amount_decimal\":\"11900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "Apple Pencil (1st Generation)",
+            "description": "Apple Pencil (1st Generation): A precision stylus designed for iPad, offering seamless drawing and note-taking with pressure sensitivity and tilt support",
+            "image": {
+              "id":"65b14531fde236610cda46b6",
+              "alt":"apple-pencil-1st-generation",
+              "filename":"apple-pencil-1st-generation.png",
+              "mimeType":"image/png",
+              "filesize":39044,
+              "width":1720,
+              "height":580,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b140f6fde236610cda4343",
+          "title": "AirPods Max",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+              {
+      "id": "65b1346bfde236610cda3ce9",
+      "title": "Accessories",
+      "media": {
+        "id": "65b13460fde236610cda3ce2",
+        "alt": "accessories",
+        "url": "/categories/accessories-category.png", 
+        "filesize": 86859,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:01"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "airpods-max",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWxCAsRqOLTtTQX4QvVIoq\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705251274,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHWe6lR2U09qN\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":24900,\"unit_amount_decimal\":\"24900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "AirPods Max",
+            "description": "Experience unparalleled audio excellence with the AirPods Max, Apple's premium wireless over-ear headphones, designed for ultimate sound quality and comfort.",
+            "image": {
+              "id":"65b14033fde236610cda430d",
+              "alt":"airpods-max",
+              "filename":"airpods-max.png",
+              "mimeType":"image/png",
+              "filesize":210717,
+              "width":1058,
+              "height":1110,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-09-01T00:00:00Z",
+          "createdAt": "2021-09-01T00:00:00Z"
+        },
+        {
+          "id": "65b137acfde236610cda3e0b",
+          "title": "MacBook Air - 13'' 256gb space-gray",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "macbook-air---13-256gb-space-gray",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWlDAsRqOLTtTQobbjIbOO\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250531,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHJKIqT1PF6AE\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":159900,\"unit_amount_decimal\":\"159900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "13-inch-macbokk-air-256gb-space-gray",
+            "description": "13-inch-macbokk-air-256gb-space-gray",
+            "image": {
+              "id":"65b136e8fde236610cda3df4",
+              "alt":"13-inch-macbokk-air-256gb-space-gray",
+              "filename":"13-inch-macbokk-air-256gb-space-gray.png",
+              "mimeType":"image/png",
+              "filesize":360697,
+              "width":1870,
+              "height":1190,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-10-01T00:00:00Z",
+          "createdAt": "2021-10-01T00:00:00Z"
+        },
+        {
+          "id": "65b13ea6fde236610cda4182",
+          "title": "MacBook Pro - 14''",
+          "publishedOn": "2021-09-01T00:00:00Z",
+          "relationTo": "products",
+          "categories": [
+            
+             {
+      "id": "65b13616fde236610cda3d38",
+      "title": "Laptops",
+      "media": {
+        "id": "65b13612fde236610cda3d31",
+        "alt": "Laptops",
+        "url": "/categories/laptops-category.png", 
+        "filesize": 160880,
+        "width": 620,
+        "height": 720,
+        "createdAt": "2024-01-24T16:01",
+        "updatedAt":"2024-01-24T16:02"      
+      },
+      "createdAt": "2024-01-24T16:01",
+      "updatedAt": "2024-01-24T16:01"
+    }
+            
+          ],
+          "slug": "14-macbook-pro",
+          "priceJSON": "{\"object\":\"list\",\"data\":[{\"id\":\"price_1OYWqHAsRqOLTtTQuGXAbSHk\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1705250845,\"currency\":\"eur\",\"custom_unit_amount\":null,\"livemode\":false,\"lookup_key\":null,\"metadata\":{},\"nickname\":null,\"product\":\"prod_PNHPF7TBS08s3H\",\"recurring\":null,\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"one_time\",\"unit_amount\":249900,\"unit_amount_decimal\":\"249900\"}],\"has_more\":false,\"url\":\"/v1/prices\"}",
+          "meta":{
+            "title": "14'' MacBook Pro",
+            "description": "14-inch MacBook Pro, 12-core CPU, 1TB storage, Space Black: Unleash peak performance in a stylish, portable powerhouse.",
+            "image": {
+              "id":"65b13e49fde236610cda415d",
+              "alt":"14-inch-macbook-pro-12-core-1tb-space-black",
+              "filename":"14-inch-macbook-pro-12-core-1tb-space-black.png",
+              "mimeType":"image/png",
+              "filesize":240048,
+              "width":1914,
+              "height":1148,
+              "createdAt":"1706107881661",
+              "updatedAt":"1706107881661"
+          },
+            "updatedAt": "2021-09-01T00:00:00Z",
+            "createdAt": "2021-09-01T00:00:00Z"
+          },
+          "updatedAt": "2021-08-01T00:00:00Z",
+          "createdAt": "2021-08-01T00:00:00Z"
+        }
+      ],
+      "updatedAt": "2021-09-01T00:00:00Z",
+      "createdAt": "2021-09-01T00:00:00Z"
+    }
+   
+  ]

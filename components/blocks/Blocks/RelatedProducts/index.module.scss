@@ -1,0 +1,94 @@
+@import '../../../../styles/css/common';
+
+.relatedProducts {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.gutter{
+  @include small-break{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
+
+.introContent {
+  position: relative;
+  margin-bottom: calc(20px * 2);
+
+  @include mid-break {
+    margin-bottom: 20px;
+  }
+}
+
+.grid {
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
+  gap: 30px;
+
+  @include mid-break {
+    gap: 20px;
+  }
+
+  @include small-break {
+    grid-template-columns: 100%;
+  }
+}
+
+.title {
+  font-weight: 400;
+  margin-bottom: 30px;
+  
+    font-size: var(--font-l);
+    line-height: 32px;
+  
+}
+
+.slider_track{
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.slider_button_prev{
+  position: absolute;
+  margin-top: 133px;
+  left: 5px;
+  cursor: pointer;
+  color: var(--primary-dim2);
+  &:hover{
+    color: var(--primary);
+  }
+  svg{
+    height: 25px;
+  }
+}
+.slider_button_next{
+  position: absolute;
+  margin-top: -248px;
+  right: 5px;
+  cursor: pointer;
+  color: var(--primary-dim2);
+  &:hover{
+    color: var(--primary);
+  }  
+  svg{
+    height: 25px;
+  }
+}
+
+.slide{
+  width: 31.5% !important;
+  @include mid-break{
+    width: 48% !important;
+  }
+  @include small-break{
+    width: 100% !important;
+  }
+}

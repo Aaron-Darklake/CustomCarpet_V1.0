@@ -1,0 +1,205 @@
+@import '../../../../styles/css/common';
+
+.profile{
+  width: 100%;
+  input{
+    border-radius: 8px;
+    margin: 0;
+    height: 44px;
+  }
+}
+
+.profile_mobile_btn{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  column-gap: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  &:hover{
+    color: var(--primary);
+  }
+  svg{
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.mainTitle_wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  row-gap: 16px;
+  h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
+
+.profile_content_wrapper{
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  width: 100%;
+}
+
+.profile_content_form_divider{
+  width: 100%;
+  height: 1px;
+  background-color: var(--primary-dim2);
+}
+
+.profile_content_form{
+  overflow: visible;
+  width: 100%;
+}
+
+.profile_content_form_wrapper{
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.profile_content_form_closed{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.profile_content_form_closed_value{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_content_form_closed_value_span_upper{
+  text-transform: uppercase;
+}
+
+.profile_content_form_closed_value_span_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 16px;
+  flex: 1 1;
+  flex-basis: 0px;
+}
+.profile_content_form_closed_value_span_wrapper_adress{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  column-gap: 16px;
+  flex: 1 1;
+  flex-basis: 0px;
+}
+
+.profile_content_form_closed_value_span{
+  font-weight: 600;
+}
+
+.profile_content_form_closed_button_btn{
+  transition-property: color, background-color, border-color, box-shadow, opacity;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .25s;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: var(--background-modal-3);
+  box-shadow: 0 0 var(--background-modal-4), 0 0 var(--background-modal-4), 0 0 var(--background-modal-4), 0 0 var(--background-modal-4),  0px 0px 0px 1px var(--background-modal-4),0px 1px 2px -1px var(--background-modal-4),0px 2px 4px 0px var(--background-modal-4);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  column-gap: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  min-height: 25px;
+  display: inline-flex;
+  position: relative;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  &:hover{
+  background-image: linear-gradient(180deg, rgba(3,7,18,0), var(--background-modal-4));
+  }
+}
+
+.profile_content_form_dropdown_container{
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  transition-duration: 0.3s;
+  transition-property: max-height, opacity;
+  max-height: 0;
+  opacity: 0;
+}
+.profile_content_form_dropdown_container_open{
+  max-height: 1000px !important;
+  opacity: 1;
+}
+
+.profile_content_form_dropdown_wrapper{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.profile_content_form_dropdown_input_wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 16px;
+}
+.profile_content_form_dropdown_input_wrapper_password{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 0.5fr));
+  column-gap: 16px;
+}
+
+.profile_content_form_dropdown_button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.profile_content_form_dropdown_button_btn{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: var(--background);
+  background-color: var(--primary);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  column-gap: 6px;
+  justify-content: center;
+  align-items: center;
+  max-width: 140px;
+  width: 100%;
+  min-height: 25px;
+  display: inline-flex;
+  position: relative;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.profile_content_form_closed_value_span_password{
+  font-weight: 400;
+}

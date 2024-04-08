@@ -1,0 +1,52 @@
+@import '../../../styles/scss/mixins';
+
+.field_type_textarea{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.field_type_textarea_outer{
+    width: 100%;
+    border: 1px solid var(--primary-dark);
+    background: var(--primary-dim2);
+    color: var(--primary);
+    font-size: 13px;
+    line-height: 25px;
+    padding: 12.5px 18.75px;
+    display: flex;
+    resize: vertical;
+    min-height: 75px;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.field_type_textarea_inner{
+    display: block;
+    position: relative;
+    line-height: inherit;
+    flex-grow: 1;
+    background: none;
+    outline: none;
+    textarea{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: inherit;
+        padding: inherit;
+        line-height: inherit;
+        overflow: auto;
+        background: none;
+        resize: none;
+        text-transform: none;
+    }
+}
+
+
+
+
+
+

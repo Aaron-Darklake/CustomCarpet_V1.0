@@ -1,0 +1,13 @@
+@use '../../../styles/css/common.scss' as *;
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.gutter{
+  @include small-break{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
