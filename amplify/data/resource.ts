@@ -10,11 +10,7 @@ authenticated via an API key, can only "read" records.
 const schema = a.schema({
 
 
-    CartItem: a
-  .model({
-    product: a.string(),
-    quantity: a.float(),
-  }).authorization([a.allow.owner(),a.allow.specificGroup('Admin')]),
+  
 
   Order: a
   .model({
@@ -89,7 +85,7 @@ const schema = a.schema({
       city: a.string(),
       zip: a.string(),
       country: a.string(),
-      countryCode: a.string(),
+      countryCode: a.string(), 
     })
     .authorization([a.allow.owner(),a.allow.specificGroup('Admin')]),
 });
