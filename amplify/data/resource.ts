@@ -9,7 +9,26 @@ authenticated via an API key, can only "read" records.
 =========================================================================*/
 const schema = a.schema({
 
+  OrderItem: a
+  .model({
+    product: a.string(),
+    quantity: a.float(),
+    order: a.belongsTo('Order'),
+    price: a.float(),
+  })
+  .authorization([a.allow.owner(), a.allow.specificGroup('Admin')]),
 
+  ShippingAddresses: a.model({
+    addresses: a.hasMany('Address'),
+  })
+  .authorization([a.allow.owner(),a.allow.specificGroup('Admin')]),
+
+  CartItem: a
+  .model({
+    product: a.string(),
+    quantity: a.float(),
+    cart: a.belongsTo('Cart'),
+  }).authorization([a.allow.owner(),a.allow.specificGroup('Admin')]),
   
 
   Order: a
@@ -42,6 +61,7 @@ const schema = a.schema({
     orderStatus: a.string(),
     shippingMethod: a.string(),
     orderItems: a.string().array(),
+    items: a.hasMany('OrderItem'),
   })
   .authorization([a.allow.owner(),a.allow.specificGroup('Admin')]),
 
@@ -59,7 +79,11 @@ const schema = a.schema({
   })
   .authorization([a.allow.owner(), a.allow.public().to(['read']),a.allow.specificGroup('Admin')]),
   
-
+  Cart: a
+  .model({
+    items: a.hasMany('CartItem'),
+  })
+  .authorization([a.allow.owner(),a.allow.specificGroup('Admin')]),
 
     Media: a.model({
       fileName: a.string(),
@@ -74,6 +98,8 @@ const schema = a.schema({
 
     Category: a.model({
       title: a.string(),
+      parent: a.hasOne('Category'),
+      media: a.hasOne('Media'),
     })
     .authorization([a.allow.owner(), a.allow.public().to(['read']),a.allow.specificGroup('Admin')]),
 
@@ -86,6 +112,7 @@ const schema = a.schema({
       zip: a.string(),
       country: a.string(),
       countryCode: a.string(), 
+      shippingAddresses: a.belongsTo('ShippingAddresses')
     })
     .authorization([a.allow.owner(),a.allow.specificGroup('Admin')]),
 });
