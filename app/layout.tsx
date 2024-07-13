@@ -25,16 +25,8 @@ interface RootLayoutProps {
 }
 
 Amplify.configure(config, {
-  ssr: true,
-  API: {
-    GraphQL: {
-      endpoint: 'https://telyiacybfd6hams3oxxvrxw2m.appsync-api.eu-central-1.amazonaws.com/graphql',
-      region: 'eu-central-1',
-      defaultAuthMode: 'apiKey',
-      apiKey: 'da2-ug7yud4jl5cpro5oo73ymhz2me'
-    }
-  },
-    },
+  ssr: true
+},
     );
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
