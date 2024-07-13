@@ -6,12 +6,11 @@ import * as s3 from 'aws-cdk-lib/aws-s3';
 
 const backend = defineBackend({
   auth,
-  data: {
-    ...data,
-    apiKey: 'da2-ug7yud4jl5cpro5oo73ymhz2me', // Add this line if needed
-  },
+  data,
   storage
 });
+
+
 
 const cfnBucket =  backend.storage.resources.bucket.node.findChild('Resource') as s3.CfnBucket
 cfnBucket.addPropertyOverride('CorsConfiguration', {
@@ -56,3 +55,4 @@ cfnUserPool.addPropertyOverride("Schema", [
     Mutable: true,
   },
 ]);
+'da2-ug7yud4jl5cpro5oo73ymhz2me'

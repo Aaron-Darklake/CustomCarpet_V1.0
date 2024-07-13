@@ -26,7 +26,15 @@ interface RootLayoutProps {
 
 Amplify.configure(config, {
   ssr: true
-});
+    },
+    {
+      API: {
+        GraphQL: {
+          endpoint: 'da2-ug7yud4jl5cpro5oo73ymhz2me',
+          region: 'eu-central-1',
+        },
+      },
+    },);
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
