@@ -6,7 +6,10 @@ import * as s3 from 'aws-cdk-lib/aws-s3';
 
 const backend = defineBackend({
   auth,
-  data,
+  data: {
+    ...data,
+    apiKey: 'da2-ug7yud4jl5cpro5oo73ymhz2me', // Add this line if needed
+  },
   storage
 });
 
